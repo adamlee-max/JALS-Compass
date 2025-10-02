@@ -1,6 +1,8 @@
 # 🧭 Guardian–JALS Compass  
-
-**A universal viability scoring tool using five invariants and transparent receipts.**  
+> ⚠️ **Note:** This is a live, rough working repo.  
+> Expect messy folders, plain text, and receipts.  
+> The Compass works — the polish can come later.  
+> If you’re here, you’re early. 🚀**A universal viability scoring tool using five invariants and transparent receipts.**  
 
 ---
 
