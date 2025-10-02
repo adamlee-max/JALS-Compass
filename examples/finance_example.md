@@ -48,5 +48,19 @@ Numbers:
 - **Maintenance (E[m]↑):** Multi-venue routing or backup account to reduce single-point failure.
 
 > **Band:** C < 0.00 = Failing. Target C ≥ 0.20 (Viable) after applying 2–3 levers.
+>## Invariant breakdown (receipts)
+
+**E[m] = 0.4** — fragile process, single-venue dependency  
+**R = 0.2** — no rollback/stop-loss drills (weak recovery loop)  
+**Pr = 0.8** — 3:1 leverage + single exchange = near the edge  
+**H = 0.5** — poor observability beyond PnL  
+**G = 0.6** — repeated drawdowns, lessons not embedded
+
+### C(π) calculation
+C = 0.3·E[m] + 0.3·R − 0.2·Pr − 0.1·H − 0.1·G
+
+= (0.3×0.4) + (0.3×0.2) − (0.2×0.8) − (0.1×0.5) − (0.1×0.6)  
+= 0.12 + 0.06 − 0.16 − 0.05 − 0.06  
+= **−0.09 → Failing**
 
 *#JALS*
