@@ -56,8 +56,12 @@ Receipts: Risk of collapse is high; needs recovery loops and boundaries.
 - Try the [**Compass GPT App**](#) (coming soon in the GPT Store).  
 - Read the worked examples in `/examples/`.  
 - Run your own systems through the formula and share results with #JALS.  
+## 📂 Examples
 
----
+Worked case studies showing the Compass in action:
+
+- [Finance Example](examples/finance_example.md) – High-leverage crypto strategy (C = -0.09, Failing)
+- (More examples coming soon: Biology, Ecology, AI, Simulation)
 
 ## 🔹 License  
 MIT License — free to use, adapt, and share. Please credit **@JALSLAW**.  
