@@ -90,7 +90,8 @@ Worked case studies showing the Compass in action:
 
 - [Finance Example](examples/finance_example.md) – High-leverage crypto strategy (C = -0.09, Failing)
 - (More examples coming soon: Biology, Ecology, AI, Simulation)
-
+## Live Experiment
+The JALS Compass is now entering its live audit phase — every new example or use strengthens and validates the framework through transparent receipts.
 ## 🔹 License  
 MIT License — free to use, adapt, and share. Please credit **@JALSLAW**.  
 ---
