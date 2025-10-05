@@ -1,4 +1,5 @@
-# Compass Example — High-Leverage Crypto Strategy
+## High-Leverage Crypto Strategy — Financial System Stress Test  
+_Applied JALS Compass Invariants to assess systemic stability and recovery under high leverage conditions._
 
 **Summary verdict:** **Failing** (C = **-0.09**) → Very high collapse risk unless boundaries and recovery loops are added.
 
