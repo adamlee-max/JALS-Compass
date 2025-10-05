@@ -1,4 +1,5 @@
-# Compass Example — Lehman Brothers (2008 Collapse)
+## Lehman Brothers Collapse (2008) — Financial System Stress Test
+_Applied JALS Compass Invariants to assess systemic failure and recovery potential._
 
 **Summary verdict: Critical collapse (C = 0.00)**  
 Lehman Brothers showed systemic fragility across all five invariants. No viable recovery loops or boundary buffers were in place.
