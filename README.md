@@ -1,4 +1,30 @@
 # 🧭 Guardian–JALS Compass  
+# JALS Compass
+*A universal viability scoring tool using five invariants and transparent receipts.*
+
+The **Guardian–JALS Compass** is a simple framework for evaluating whether a system — human, organisational, or AI — is balanced and viable.  
+It applies five invariants:
+
+1. **Boundary Symmetry** – every stable state sits between two collapse edges.
+2. **Dynamic Centre Law** – the farther from balance, the higher the cost and risk.
+3. **Loop–Continuity** – recovery and renewal define resilience.
+4. **Pattern Sufficiency** – fragments contain enough information to infer the whole.
+5. **History / Recurrence** – learning from past states maintains viability.
+
+**C-score formula**
+
+\[
+C(\pi) = 0.3E[m] + 0.3R - 0.2Pr - 0.1H - 0.1G
+\]
+
+- **E[m]** = ability to maintain structure (0–1)
+- **R** = recovery capacity
+- **Pr** = probability of breach or failure
+- **H** = opacity of information
+- **G** = historical regret
+
+**Interpretation:** C > 0.2 ≈ viable; C < 0 ≈ collapse risk.  
+Each use creates a “receipt” — a transparent breakdown of the inputs and the score.
 > ⚠️ **Note:** This is a live, rough working repo.  
 > Expect messy folders, plain text, and receipts.  
 > The Compass works — the polish can come later.  
