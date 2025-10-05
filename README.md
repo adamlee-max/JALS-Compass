@@ -110,3 +110,7 @@ Each file shows how the JALS Compass applies to a real-world system — from fin
 **Result:** Repository verified as stable and internally consistent.  
 **Compass Viability Score:** C = 0.35 (stable → ready for next phase).  
 **Next Step:** Add AI example and meta-logging (Stage 2).  
+## Live Meta-Loop Example
+The Compass is now running a live, self-auditing experiment.  
+See the first example here:  
+[Meta-Loop Example — Live Audit Launch](examples/meta_loop_example.md)
