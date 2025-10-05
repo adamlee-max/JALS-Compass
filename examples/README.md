@@ -11,3 +11,8 @@ Each example shows the **invariant breakdown** and the final **C(π)** viability
 - (add more as we go)
 
 📝 Drop new examples in this folder. Keep each one short, with receipts + C(π).
+---
+### Current Compass Receipts
+- [Lehman Brothers Collapse](lehman_example.md)
+- [High-Leverage Crypto Strategy](finance_example.md)
+- [Education Reform — Systemic Equity Test](education_example.md)
