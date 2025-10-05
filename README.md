@@ -93,3 +93,13 @@ Worked case studies showing the Compass in action:
 
 ## 🔹 License  
 MIT License — free to use, adapt, and share. Please credit **@JALSLAW**.  
+---
+
+### 🔍 Explore Examples
+You can see worked receipts and test cases in the [`/examples/`](examples/) folder.  
+Each file shows how the JALS Compass applies to a real-world system — from finance to AI alignment — using the five invariants and C(π) formula.
+
+> *Note:* The Compass improves with shared use and feedback.  
+> Each application strengthens the pattern library and helps refine future scores.
+
+---
