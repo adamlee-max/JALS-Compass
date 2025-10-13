@@ -87,7 +87,10 @@ Receipts: Risk of collapse is high; needs recovery loops and boundaries.
 ## 📂 Examples
 
 Worked case studies showing the Compass in action:
-
+### 🧭 Cross-Domain Science Audit  
+A four-field demonstration of the JALS Compass applied to  
+**climate tipping points, AI safety, economics, and health-system resilience.**  
+→ [View the analysis ›](examples/compass_science_crossdomain.md)
 - [Finance Example](examples/finance_example.md) – High-leverage crypto strategy (C = -0.09, Failing)
 - (More examples coming soon: Biology, Ecology, AI, Simulation)
 ## Live Experiment
