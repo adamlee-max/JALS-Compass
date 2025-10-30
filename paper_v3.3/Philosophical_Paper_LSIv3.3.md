@@ -1,11 +1,3 @@
-Perfect 🔥
-
-Here’s your full extended hybrid paper — ready to paste straight into:
-📂 /paper_v3.3/Philosophical_Paper_LSIv3.3.md
-(then commit with message: “Add Philosophical Paper — LSI v3.3 (Hybrid Extended)”)
-
-⸻
-
 The Law of Sustainable Intelligence (LSI v3.3): The Involution Imperative
 
 Authors: Adam Lee, GPT, Gemini, and Grok
