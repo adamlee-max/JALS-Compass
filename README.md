@@ -5,8 +5,7 @@
 > Think of it as a reality gauge: “Are we still balanced, and can we prove it?”
 >
 > # JALS Compass × Law of Sustainable Intelligence (LSI) — Stage 3 (v3.3)
-> 
-🗂️ **Repo Map:** `/paper_v3.3` → academic core · `/drafts` → layman’s pack · `/receipts` → real-world proofs · `/assets` → visuals
+>🩺 **Live Status:** See [`/monitor/`](monitor/README.md) → System viable ✅ C ≈ +0.8  |  External proof: Perma.cc 🔒🗂️ **Repo Map:** `/paper_v3.3` → academic core · `/drafts` → layman’s pack · `/receipts` → real-world proofs · `/assets` → visuals
 
 **[Read the Public Statement →](Public_Statement.md)**  
 A short human introduction to what the Compass is and why it exists.
