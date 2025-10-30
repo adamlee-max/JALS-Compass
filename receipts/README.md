@@ -7,14 +7,13 @@ Each receipt = one proof of balance (a “receipt of existence”).
 ---
 
 ## 📜 Logged Receipts
+## 🧾 Logged Receipts
 
 | ID | Date | Description | C-Score | Outcome |
 |----|------|--------------|---------|----------|
-| [#001](compass_receipt_001.md) | 30 Oct 2025 | Validation template | — | Template only |
+| [#001](compass_receipt_001.md) | 30 Oct 2025 | Validation template | – | Template only |
 | [#002](compass_receipt_002.md) | 30 Oct 2025 | Daily routine test (shift work + JALS) | +0.8 | ✅ Viable and improving; watch work/rest balance |
-
-| [#003](compass_receipt_003.md) | 30 Oct 2025 | External validation via Perma.cc (immutable third-party record of v3.3 release) | — | 🔒 Verified — public proof of existence |
-# Compass Receipts Ledger — JALS Compass × Law of Sustainable Intelligence (v3.3)
+| [#003](compass_receipt_003.md) | 30 Oct 2025 | External validation via Perma.cc (immutable third-party record of v3.3 release) | – | 🔒 Verified — public proof of existence |# Compass Receipts Ledger — JALS Compass × Law of Sustainable Intelligence (v3.3)
 
 This ledger lists all official validation receipts recorded during Stage 3 (v3.3).  
 Each entry acts as a timestamped proof of existence or validation event.
