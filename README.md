@@ -29,3 +29,10 @@ The full functional and definitions live in `/paper_v3.3/formula_v3.3.md`.
 
 ## Citation (placeholder)
 JALS Research Group (2025). *The Law of Sustainable Intelligence & the JALS Compass (v3.3).* GitHub repository.  
+---
+
+## 💬 Layman’s Pack
+If you just want the plain-English version, start here:
+
+- [Layman’s Pack](drafts/laymans_pack.md)
+- [Quick Checklist](drafts/laymans_checklist.md)
