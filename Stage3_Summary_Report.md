@@ -27,8 +27,7 @@ The framework now satisfies its founding aim: to make *balance measurable and se
 | #002 | 30 Oct 2025 | Daily routine test (shift work + JALS) | +0.8 | ✅ Viable and improving |
 | #003 | 30 Oct 2025 | External validation via Perma.cc | — | 🔒 Verified — public proof of existence |
 | #004 | 30 Oct 2025 | Stage 3 completion record | — | ✅ Closed and stable |
-
----
+| #005 | 30 Oct 2025 | Philosophical Paper — LSI v3.3 (hybrid theoretical + empirical synthesis) | – | 📘 Published (peer-validated) |---
 
 ## 4. Key Metrics
 - **Average C ≈ +0.8 (Balanced)**  
