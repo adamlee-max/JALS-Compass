@@ -7,26 +7,21 @@
 
 ## 1. Scenario tested
 Describe in plain English what you want to check today.  
-*(Example: “I used the five checks to score a team project or daily routine.”)*
-
----
+I used the Compass to check if my daily routine feels sustainable while working shifts and building JALS.---
 
 ## 2. Five-check scores
 | Check | Question | Score (-1 / 0 / +1) |
-|:--|:--|:--:|
-| Boundaries | Do we know our limits and roles? | |
-| Centre | Are we balanced between effort and reward? | |
-| Loops | Do we learn and adjust fast? | |
-| Patterns | Are we using real signals? | |
-| History | Are we learning from past experience? | |
-**Total C = (sum / 5)**
-
----
+|-------|-----------|----------------------|
+| Boundaries | Do I know my limits and roles? | +1 |
+| Centre | Am I balanced between work and rest? | 0 |
+| Loops | Do I learn and adjust fast? | +1 |
+| Patterns | Am I using real signals (sleep, focus, progress)? | +1 |
+| History | Am I learning from past routines? | +1 |
+**Total C = (4 / 5) = +0.8**---
 
 ## 3. What happened
 Write briefly what you observed, what changed, and any lessons.
-
----
+Felt more structured today — less chaos, easier focus after defining clear limits.---
 
 ## 4. Outcome
 🟢 Positive → system gaining balance  
