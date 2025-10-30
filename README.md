@@ -7,8 +7,8 @@
 > # JALS Compass × Law of Sustainable Intelligence (LSI) — Stage 3 (v3.3)
 >🩺 **Live Status:** See [`/monitor/`](monitor/README.md) → System viable ✅ C ≈ +0.8  |  External proof: Perma.cc 🔒🗂️ **Repo Map:** `/paper_v3.3` → academic core · `/drafts` → layman’s pack · `/receipts` → real-world proofs · `/assets` → visuals
 
-📄 **Executive Abstract:** [/drafts/Executive_Abstract.md](drafts/Executive_Abstract.md)**[Read the Public Statement →](Public_Statement.md)**  
-A short human introduction to what the Compass is and why it exists.
+📄 **Executive Abstract:** [/drafts/Executive_Abstract.md](drafts/Executive_Abstract.md)  
+📢 **[Read the Public Statement →](Public_Statement.md)**A short human introduction to what the Compass is and why it exists.
 **Status:** Stage 3 – LSI v3.3 locked • **Date:** 30 Oct 2025 (UTC+0)  
 **Purpose:** This repo is the canonical, timestamped record (“receipt of existence”) for the JALS Compass and the Law of Sustainable Intelligence (LSI).
 
