@@ -26,11 +26,12 @@ The full functional and definitions live in `/paper_v3.3/formula_v3.3.md`.
 - **Interoperable:** papers, app blueprints, and validations reference this repo.
 
 ## Repo layout (Stage 3 seed)
-- `/paper_v3.3/` — academic paper materials (outline, formula, abstract)
-- `/receipts/` — validation runs & logs (Compass Receipts)
-- `/drafts/` — philosophical companion & notes
-- `/assets/` — diagrams and figures
-- `README.md` — (this file) project home
+
+- [`/paper_v3.3/`](paper_v3.3/README.md) — academic paper materials (outline, formula, and [Philosophical Paper — LSI v3.3](paper_v3.3/Philosophical_Paper_LSIv3.3.md))  
+- [`/receipts/`](receipts/) — validation runs & logs (Compass Receipts)  
+- [`/drafts/`](drafts/) — philosophical companion & layman’s pack  
+- [`/assets/`](assets/) — diagrams and figures  
+- [`README.md`](README.md) — this file (project home)
 
 ## Quick start
 - Read the functional: `/paper_v3.3/formula_v3.3.md`  
