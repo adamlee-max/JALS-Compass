@@ -9,7 +9,8 @@
 🗂️ **Repo Map:** `/paper_v3.3` → academic core · `/drafts` → layman’s pack · `/receipts` → real-world proofs · `/assets` → visuals
 
 **[Read the Public Statement →](Public_Statement.md)**  
-A short human introduction to what the Compass is and why it exists.**Status:** Stage 3 – LSI v3.3 locked • **Date:** 30 Oct 2025 (UTC+0)  
+A short human introduction to what the Compass is and why it exists.
+**Status:** Stage 3 – LSI v3.3 locked • **Date:** 30 Oct 2025 (UTC+0)  
 **Purpose:** This repo is the canonical, timestamped record (“receipt of existence”) for the JALS Compass and the Law of Sustainable Intelligence (LSI).
 
 ## What this is
