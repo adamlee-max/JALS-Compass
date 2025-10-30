@@ -21,9 +21,10 @@ I used the Compass to check if my daily routine feels sustainable while working 
 
 ## 3. What happened
 Write briefly what you observed, what changed, and any lessons.
-Felt more structured today — less chaos, easier focus after defining clear limits.---
+Felt more structured today — less chaos, easier focus after defining clear limits.
 
 ## 4. Outcome
 🟢 Positive → system gaining balance  
 🟡 Neutral → watch and adjust  
 🔴 Negative → imbalance found → record follow-up as Receipt #003
+Compass summary: C = +0.8 → System viable and improving; watch work/rest equilibrium.
