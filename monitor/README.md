@@ -9,8 +9,7 @@
 | Last update | 30 Oct 2025 | ⏱ Synced |
 | Average C-score | +0.8 | 🟢 Balanced |
 | External proof valid | Yes (Perma.cc record) | 🔒 Verified |
-
-🧭 **Compass status:** System viable & self-proving.  
+| External proofs validated | 4 (A001–A004) | 🔒 Complete |🧭 **Compass status:** System viable & self-proving.  
 Next check-in → when new receipts or framework iterations occur.
 ---
 
