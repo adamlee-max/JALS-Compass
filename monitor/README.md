@@ -12,3 +12,6 @@
 
 🧭 **Compass status:** System viable & self-proving.  
 Next check-in → when new receipts or framework iterations occur.
+---
+
+_Last checked: 30 Oct 2025 (UTC+0) • Maintainer: JALS Research Group_
