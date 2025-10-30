@@ -1,1 +1,103 @@
+🧭 Guardian–JALS Compass
+JALS Compass
+A universal viability scoring tool using five invariants and transparent receipts.
 
+The Guardian–JALS Compass is a simple framework for evaluating whether a system — human, organisational, or AI — is balanced and viable.
+It applies five invariants:
+
+Boundary Symmetry – every stable state sits between two collapse edges.
+Dynamic Centre Law – the farther from balance, the higher the cost and risk.
+Loop–Continuity – recovery and renewal define resilience.
+Pattern Sufficiency – fragments contain enough information to infer the whole.
+History / Recurrence – learning from past states maintains viability.
+C-score formula
+
+[ C(\pi) = 0.3E[m] + 0.3R - 0.2Pr - 0.1H - 0.1G ]
+
+E[m] = ability to maintain structure (0–1)
+R = recovery capacity
+Pr = probability of breach or failure
+H = opacity of information
+G = historical regret
+Interpretation: C > 0.2 ≈ viable; C < 0 ≈ collapse risk.
+Each use creates a “receipt” — a transparent breakdown of the inputs and the score.
+
+⚠️ Note: This is a live, rough working repo.
+Expect messy folders, plain text, and receipts.
+The Compass works — the polish can come later.
+If you’re here, you’re early. 🚀A universal viability scoring tool using five invariants and transparent receipts.
+
+🔹 What is the Compass?
+The Guardian–JALS Compass is a framework for testing whether any system — biological, financial, ecological, technological, or social — is viable.
+
+It works by scoring a system across five invariants:
+
+Boundary Symmetry – Every system sits between two collapse edges.
+Dynamic Centre – The further from balance, the higher the risk.
+Loop–Continuity – Collapse and renewal are defaults, not bugs.
+Pattern Sufficiency – Fragments can reveal the whole.
+History/Recurrence – Past failures shape future survival.
+The Compass calculates a viability score (C) between -1.0 and +1.0:
+
+[ C(\pi) = 0.3E[m] + 0.3R - 0.2Pr - 0.1H - 0.1G ]
+
+Where:
+
+E[m] = ability to maintain structure
+R = recovery/repair capacity
+Pr = risk of breaching boundaries
+H = opacity of patterns (how unclear things are)
+G = historical regret (unlearned lessons)
+🔹 Why it matters
+Universal lens: Works across domains.
+Receipts-first: Every score shows its working.
+Practical: Can guide real-world decisions, from projects to AI safety to climate systems.
+🔹 Example
+System: Trading strategy with 3:1 leverage, no stoploss, single exchange.
+
+E[m] = 0.4 (fragile)
+R = 0.2 (no recovery loop)
+Pr = 0.8 (high collapse risk)
+H = 0.5 (unclear metrics)
+G = 0.6 (unlearned lessons)
+Compass Score: C = -0.08 → Failing.
+
+Receipts: Risk of collapse is high; needs recovery loops and boundaries.
+
+🔹 How to use it
+Try the Compass GPT App (coming soon in the GPT Store).
+Read the worked examples in /examples/.
+Run your own systems through the formula and share results with #JALS.
+📂 Examples
+Worked case studies showing the Compass in action:
+
+🧭 Cross-Domain Science Audit
+A four-field demonstration of the JALS Compass applied to
+climate tipping points, AI safety, economics, and health-system resilience.
+→ View the analysis ›
+
+Finance Example – High-leverage crypto strategy (C = -0.09, Failing)
+(More examples coming soon: Biology, Ecology, AI, Simulation)
+Live Experiment
+The JALS Compass is now entering its live audit phase — every new example or use strengthens and validates the framework through transparent receipts.
+
+🔹 License
+MIT License — free to use, adapt, and share. Please credit @JALSLAW.
+🔍 Explore Examples
+You can see worked receipts and test cases in the /examples/ folder.
+Each file shows how the JALS Compass applies to a real-world system — from finance to AI alignment — using the five invariants and C(π) formula.
+
+Note: The Compass improves with shared use and feedback.
+Each application strengthens the pattern library and helps refine future scores.
+
+🔍 Last Audit
+Date: 05 Oct 2025
+Auditor: GPT-5
+Result: Repository verified as stable and internally consistent.
+Compass Viability Score: C = 0.35 (stable → ready for next phase).
+Next Step: Add AI example and meta-logging (Stage 2).
+
+Live Meta-Loop Example
+The Compass is now running a live, self-auditing experiment.
+See the first example here:
+Meta-Loop Example — Live Audit Launch 🧠 Experimental idea: future testing may explore how the Compass interacts with simple models of mind and self-reference.
