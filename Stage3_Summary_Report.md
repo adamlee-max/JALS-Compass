@@ -15,8 +15,7 @@ The framework now satisfies its founding aim: to make *balance measurable and se
 ## 2. Core Structure
 - **/paper_v3.3** → Academic core (formula and theoretical proof)  
 - **/drafts** → Layman’s Pack + Checklist for non-technical users  
-- **/receipts** → Timestamped real-world proof ledger (#001 → #004)  
-- **/monitor** → Live system health (heartbeat and C-score tracker)  
+- **/receipts** → Timestamped real-world proof ledger (#001 → #005)- **/monitor** → Live system health (heartbeat and C-score tracker)  
 - **/archive** → Immutable records and local ZIP backups  
 
 ---
