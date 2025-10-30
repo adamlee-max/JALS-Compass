@@ -21,11 +21,9 @@ Each entry acts as a timestamped proof of existence or validation event.
 | Receipt | Date | Description | Link |
 |:--|:--|:--|:--|
 | #001 | 30 Oct 2025 | Baseline validation record (v3.3 activation) | [/receipts/compass_receipt_001.md](compass_receipt_001.md) |
-| #002 | 30 Oct 2025 | First live activation (Layman’s level test) | [/receipts/compass_receipt_002.md](compass_receipt_002.md) |
+| #002 | 30 Oct 2025 | First live activation (Layman’s level test) | ~[/receipts/compass_receipt_002.md](compass_receipt_002.md) |
 | #003 | 30 Oct 2025 | External validation via Perma.cc (public immutable proof) | [/receipts/compass_receipt_003.md](compass_receipt_003.md) |
-
----
-
+| [#004](compass_receipt_004.md) | 30 Oct 2025 | Stage 3 publication header finalised (Executive Abstract + Public Statement links live) | – | 🧾 Documentation integrity verified |
 🧭 **Summary:**  
 These receipts form the verification chain of the JALS Compass × Law of Sustainable Intelligence.  
 Each record adds transparency, reproducibility, and proof that the system evolves through verified steps.---
