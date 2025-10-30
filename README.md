@@ -45,3 +45,5 @@ If you just want the plain-English version, start here:
 
 - [Layman’s Pack](drafts/laymans_pack.md)
 - [Quick Checklist](drafts/laymans_checklist.md)
+- _This plain-English guide is now live and linked to the Stage 3 verified monitor._  
+→ See current system health in [`/monitor/`](monitor/README.md)
