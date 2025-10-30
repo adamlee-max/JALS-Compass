@@ -15,3 +15,6 @@ To serve as the canonical location for all text and formulae included in journal
 Each commit to this directory acts as a **public receipt of theory evolution**.
 
 ---
+## External Reviews
+
+- [Gemini Expert Review — LSI v3.3](../peer_reviews/Gemini_LSIv3.3_Review.md) → Confirms structural rigor, Ω_spirit closure, and philosophical coherence (“Involution Imperative”).
