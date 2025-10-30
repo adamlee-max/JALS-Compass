@@ -2,7 +2,9 @@
 >
 > It works through five simple checks (boundaries, centre, loops, patterns, history) and produces a quick C-score to show stability.
 >
-> Think of it as a reality gauge: “Are we still balanced, and can we prove it?”# JALS Compass × Law of Sustainable Intelligence (LSI) — Stage 3 (v3.3)
+> Think of it as a reality gauge: “Are we still balanced, and can we prove it?”
+>
+> # JALS Compass × Law of Sustainable Intelligence (LSI) — Stage 3 (v3.3)
 
 **Status:** Stage 3 – LSI v3.3 locked • **Date:** 30 Oct 2025 (UTC+0)  
 **Purpose:** This repo is the canonical, timestamped record (“receipt of existence”) for the JALS Compass and the Law of Sustainable Intelligence (LSI).
