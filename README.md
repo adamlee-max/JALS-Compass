@@ -24,8 +24,44 @@ The full functional and definitions live in `/paper_v3.3/formula_v3.3.md`.
 - **Single source of truth** for the math, proofs, and receipts.  
 - **Public traceability:** each commit is a dated receipt.  
 - **Interoperable:** papers, app blueprints, and validations reference this repo.
+## C(π): Law vs Operational Proxy (repo truth)
 
-## Repo layout (Stage 3 seed)
+**This repo implements a pragmatic proxy of the Law.**  
+The formal law lives in the paper; here we use a simple, reproducible score for quick checks and examples.
+
+### Formal law (paper)
+- **Snapshot (state):** \( C_s(\pi,t) = \frac{\log S(t)}{\log D(t)} \)  
+- **Dynamic (process):** \( \displaystyle \frac{dC(\pi,t)}{dt} = \frac{d}{dt}\Big(\frac{\log S(t)}{\log D(t)}\Big) \)  
+  - Read: how fast coherence is improving or decaying over time.
+
+> **Meta-Law (guiding principle):**  
+> Systems that maintain coherence through noise, drift, and interaction tend to survive; those that cannot, dissolve.
+
+### Operational proxy (used in this repo)
+We use a **linear heuristic** for fast, transparent scoring in examples/sims:
+
+\[
+C_{\text{proxy}}(\pi) \;=\; 0.3\,E_m \;+\; 0.3\,R \;-\; 0.2\,Pr \;-\; 0.1\,H \;-\; 0.1\,G
+\]
+
+- \(E_m\): meaningful effort \(R\): reciprocity \(Pr\): breach risk  
+- \(H\): opacity/hiddenness \(G\): regret/goal drift  
+- Range: \([-1, +1]\) approx. Higher = more viable.
+
+> **Disclosure:** `C_proxy` is a **pragmatic proxy**, not the Law itself.  
+> Full derivation and dynamic form are in the paper (see `/paper_v3.3/`).
+
+### Falsifiability (how this can be wrong)
+If a system **sustains survival** while its measured coherence **decreases over time** (dynamic \(dC/dt<0\) persistently), the law fails.  
+If coherence increases yet the system **consistently collapses**, the law fails.  
+This repo includes small sims to make that check explicit.
+
+### Quick example (proxy)
+```python
+from compass import jals_compass  # C_proxy
+score = jals_compass(E_m=0.85, R=0.80, Pr=0.15, H=0.10, G=0.05)
+print(f"C_proxy = {score:.2f}")
+# Tip: treat >0.2 as “viable” in examples; tune per domain.## Repo layout (Stage 3 seed)
 
 - [`/paper_v3.3/`](paper_v3.3/README.md) — academic paper materials (outline, formula, and [Philosophical Paper — LSI v3.3](paper_v3.3/Philosophical_Paper_LSIv3.3.md))  
 - [`/receipts/`](receipts/) — validation runs & logs (Compass Receipts)  
