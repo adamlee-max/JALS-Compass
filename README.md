@@ -55,8 +55,9 @@ C_{\text{proxy}}(\pi) \;=\; 0.3\,E_m \;+\; 0.3\,R \;-\; 0.2\,Pr \;-\; 0.1\,H \;-
 If a system **sustains survival** while its measured coherence **decreases over time** (dynamic \(dC/dt<0\) persistently), the law fails.  
 If coherence increases yet the system **consistently collapses**, the law fails.  
 This repo includes small sims to make that check explicit.
-
-### Quick example (proxy)
+## Relationship to Paper
+This repository serves as the **operational layer** of the *Law of Sustainable Intelligence* (LSI v3.3), mirroring the formal derivation in [`/paper_v3.3/formula_v3.3.md`](paper_v3.3/formula_v3.3.md) and its philosophical context in [`/paper_v3.3/Philosophical_Paper_LSIv3.3.md`](paper_v3.3/Philosophical_Paper_LSIv3.3.md).
+Each update here corresponds to a validated stage or “receipt” of theoretical evolution.### Quick example (proxy)
 ```python
 from compass import jals_compass  # C_proxy
 score = jals_compass(E_m=0.85, R=0.80, Pr=0.15, H=0.10, G=0.05)
