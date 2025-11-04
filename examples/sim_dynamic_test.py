@@ -217,6 +217,12 @@ def save_plot(df: pd.DataFrame) -> str:
     stamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
     out = os.path.join("assets/plots", f"C_timeseries_{stamp}.png")
 
+# Highlight shock window and trigger crossings
+if "shock" in df.columns and df["shock"].any():
+    shock_t = int(df.loc[df["shock"] != 0, "t"].iloc[0])
+    plt.axvline(shock_t, color="red", linestyle="--", alpha=0.6, label="Shock")
+if "C_std_w" in df.columns and not df["C_std_w"].isna().all():
+    plt.legend()
     plt.figure(figsize=(10, 4.5))
     plt.plot(df["t"], df["C"], linewidth=2)
     plt.title("JALS Compass — C(t) dynamic series (Stage 4)")
