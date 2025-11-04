@@ -62,8 +62,7 @@ from compass import jals_compass  # C_proxy
 score = jals_compass(E_m=0.85, R=0.80, Pr=0.15, H=0.10, G=0.05)
 print(f"C_proxy = {score:.2f}")
 # Tip: treat >0.2 as “viable” in examples; tune per domain.## Repo layout (Stage 3 seed)
-
-- [`/paper_v3.3/`](paper_v3.3/README.md) — academic paper materials (outline, formula, and [Philosophical Paper — LSI v3.3](paper_v3.3/Philosophical_Paper_LSIv3.3.md))  
+→ See [`/examples/finance_trading.json`](examples/finance_trading.json) for a full JSON-based system test.- [`/paper_v3.3/`](paper_v3.3/README.md) — academic paper materials (outline, formula, and [Philosophical Paper — LSI v3.3](paper_v3.3/Philosophical_Paper_LSIv3.3.md))  
 - [`/receipts/`](receipts/) — validation runs & logs (Compass Receipts)  
 - [`/drafts/`](drafts/) — philosophical companion & layman’s pack  
 - [`/assets/`](assets/) — diagrams and figures  
