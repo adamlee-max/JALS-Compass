@@ -1,0 +1,14 @@
+{
+  "system": "3:1 leverage crypto strategy (no stoploss)",
+  "inputs": {
+    "E_m": 0.4,
+    "R": 0.2,
+    "Pr": 0.8,
+    "H": 0.5,
+    "G": 0.6
+  },
+  "C_proxy": -0.08,
+  "verdict": "Failing",
+  "recommendation": "Add stoploss, reduce leverage, log trades",
+  "timestamp": "2025-10-30T00:00:00Z"
+}
