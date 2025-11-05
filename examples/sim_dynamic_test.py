@@ -1,3 +1,4 @@
+from __future__ import annotations
 #!/usr/bin/env python3
 """
 JALS Compass × LSI — Stage 4 (v3.3)
@@ -26,7 +27,7 @@ Notes
 • Replace `compute_C()` with the v3.3 functional once fixed in code.
 • All file paths are relative to repo root; adjust if running elsewhere.
 """
-from __future__ import annotations
+import pandas as pd
 import argparse
 import os
 import sys
@@ -212,29 +213,27 @@ def save_receipts(df: pd.DataFrame) -> str:
 
     return csv_path
 
-
 def save_plot(df: pd.DataFrame) -> str:
     stamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
     out = os.path.join("assets/plots", f"C_timeseries_{stamp}.png")
 
-# Highlight shock window and trigger crossings
-if "shock" in df.columns and df["shock"].any():
-    shock_t = int(df.loc[df["shock"] != 0, "t"].iloc[0])
-    plt.axvline(shock_t, color="red", linestyle="--", alpha=0.6, label="Shock")
-if "C_std_w" in df.columns and not df["C_std_w"].isna().all():
-    plt.legend()
     plt.figure(figsize=(10, 4.5))
-    plt.plot(df["t"], df["C"], linewidth=2)
+    plt.plot(df["t"], df["C"], linewidth=2, label="C(t)")
     plt.title("JALS Compass — C(t) dynamic series (Stage 4)")
     plt.xlabel("t (steps)")
     plt.ylabel("C")
+
+    if "shock" in df.columns and df["shock"].any():
+        shock_t = int(df.loc[df["shock"] != 0, "t"].iloc[0])
+        plt.axvline(shock_t, color="red", linestyle="--", alpha=0.6, label="Shock")
+
+    plt.legend()
     plt.grid(True, alpha=0.3)
     plt.tight_layout()
     plt.savefig(out, dpi=200)
     plt.close()
-        return out
-
-
+    return out
+    
 # -------------------------
 # CLI
 # -------------------------

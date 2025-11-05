@@ -7,6 +7,10 @@
 
 ---
 
+**2025-11-04 — Run seed=7, steps=400:** min-viability trigger fired under drift −0.0002 and shock −0.12 at t≈250; recovery partial.  
+Plot: assets/plots/C_timeseries_20251104_162909.png
+
+## Objective
 ## Objective
 To verify that the operational proxy `C_proxy` remains falsifiable under dynamic and stochastic perturbations.
 
