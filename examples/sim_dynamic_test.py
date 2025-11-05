@@ -232,7 +232,7 @@ if "C_std_w" in df.columns and not df["C_std_w"].isna().all():
     plt.tight_layout()
     plt.savefig(out, dpi=200)
     plt.close()
-    return out
+        return out
 
 
 # -------------------------
