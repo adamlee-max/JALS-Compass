@@ -101,3 +101,4 @@ If you just want the plain-English version, start here:
 - ✅ Stage 6 complete — theoretical proof validated internally (pending external replication).
 
 > **Model family:** We use a **baseline static law** \(C_s = rac{\log S}{\log D}\) for clarity and falsifiability, and an **operational dynamic form** \(C(t,\pi)=\sigma[lpha E_m+eta R-\gamma(Pr+H+G)]\) for live systems under stress. (Earlier drafts used \(\Omega\) as a normaliser; in v5.0 we standardise on the logistic squash \(\sigma\); optional couplings \(\kappa_{ij}\) are noted where used.)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17542087.svg)](https://doi.org/10.5281/zenodo.17542087)
