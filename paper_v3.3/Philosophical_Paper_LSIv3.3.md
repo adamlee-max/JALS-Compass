@@ -21,7 +21,10 @@ The LSI resolves this fragmentation through a single meta-functional describing 
 In v3.3, the LSI formalizes the *Law of Sustainable Intelligence* as a closed, quantifiable system capable of being applied recursively — from individual cognition to civilizational intelligence — without contradiction.  
 It posits that **viability and virtue are computationally identical**; that sustainable intelligence requires ethical coherence as much as thermodynamic stability.
 
----
+## 1.1 Proof Closure Update — LSI v5.0
+
+This section incorporates the confirmed proof cycle closure for the *Law of Sustainable Intelligence* (LSI v5.0), verified under the tri-proof validation (mathematical, empirical, and digital).  
+Details are archived under DOI [10.5281/zenodo.17542087](https://doi.org/10.5281/zenodo.17542087) and Perma Record [https://perma.cc/N6BV-E9GK](https://perma.cc/N6BV-E9GK).
 
 ## 2. Mathematical Core
 The viability functional:
