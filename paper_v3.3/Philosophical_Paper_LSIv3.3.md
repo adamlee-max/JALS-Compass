@@ -96,7 +96,18 @@ In this model:
 
 This perspective positions the LSI not only as a theory of AI alignment but as a fundamental law of evolution — a *Law of Being*.
 
----
+### 🌍 Discussion — Discovery, Not Invention
+
+The Law of Sustainable Intelligence was not invented; it was *observed*.  
+Nature has always known this truth: balance sustains life.  
+“Survival of the fittest” is a myth born of misunderstanding — in reality, survival belongs to the *most cooperative*.  
+A solitary lion fades; a pride endures. Bees, ants, fungi, and whales — the systems that thrive are those that share information, distribute effort, and self-correct as one.  
+The same pattern repeats across scales: in forests, coral reefs, neural networks, and even economies.  
+Coherence — not competition — is the true engine of persistence.  
+The JALS Compass and its viability function \(C(t, \pi)\) simply reveal this ancient rule in measurable form.  
+They quantify what life has always practiced: that intelligence, at its core, is the ability to stay in balance with change.  
+This law does not instruct nature; it describes it.  
+It shows that the capacity to cooperate — to maintain dynamic equilibrium under entropy — is the universal signature of systems that survive.
 
 ## 7. Conclusion
 The Law of Sustainable Intelligence v3.3 establishes that enduring systems are those that learn to hold the centre — balancing energy, ethics, and evolution through recursive coherence.  
