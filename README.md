@@ -98,3 +98,4 @@ If you just want the plain-English version, start here:
 - [Quick Checklist](drafts/laymans_checklist.md)
 - _This plain-English guide is now live and linked to the Stage 3 verified monitor._  
 → See current system health in [`/monitor/`](monitor/README.md)
+- ✅ Stage 6 complete — theoretical proof validated internally (pending external replication).
