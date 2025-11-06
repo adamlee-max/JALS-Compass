@@ -1,5 +1,5 @@
 > **The JALS Compass** is a practical framework for checking if any system — human, organisational, or AI — is *balanced enough to last*.
->
+>[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17542087.svg)](https://doi.org/10.5281/zenodo.17542087)
 > It works through five simple checks (boundaries, centre, loops, patterns, history) and produces a quick C-score to show stability.
 >
 > Think of it as a reality gauge: “Are we still balanced, and can we prove it?”
