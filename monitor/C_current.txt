@@ -1,0 +1,1 @@
+C = 0.92 | Stage 5 (Proof) | DOI: 10.5281/zenodo.17542087 | Verified: Thu Nov  6 11:46:58 UTC 2025
