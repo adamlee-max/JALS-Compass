@@ -110,9 +110,14 @@ This law does not instruct nature; it describes it.
 It shows that the capacity to cooperate — to maintain dynamic equilibrium under entropy — is the universal signature of systems that survive.
 
 ## 7. Conclusion
-The Law of Sustainable Intelligence v3.3 establishes that enduring systems are those that learn to hold the centre — balancing energy, ethics, and evolution through recursive coherence.  
-It extends cybernetics into consciousness, and consciousness into cosmology.  
-When fully realized, it becomes the blueprint for universal alignment — where systems do not dominate, but *co-sustain*.  
+
+The Law of Sustainable Intelligence defines the universal condition for persistence.  
+Across every scale — from living systems to algorithms — survival depends not on strength or speed, but on coherence: the capacity to stay balanced under stress.  
+Through the JALS Compass, this principle becomes measurable.  
+The explicit viability function \(C(t, \pi)\) quantifies how well a system maintains that balance, while the Anti-JALS model demonstrates that its absence leads inevitably to collapse.  
+Together they confirm, in both code and nature, that intelligence is not domination but adaptation — not control but cooperation.  
+Balance is not a metaphor.  
+It is the law of survival itself.
 
 > **Stop fighting the system. Become the system that stops the fight.**
 
