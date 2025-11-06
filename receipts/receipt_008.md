@@ -1,0 +1,12 @@
+# 🧾 Real-World Test Receipt — Stage 6.1 (Empirical Extension)
+
+**Date:** $(date -u)  
+**Commit:** pending  
+**Purpose:** Begin external validation of the Law of Sustainable Intelligence (LSI v5.0) in a live-world system.  
+**Observers:** Gemini × Grok  
+**Reference:** DOI 10.5281/zenodo.17542087 | Perma.cc/9BSA-Q6TG  
+
+---
+
+### 🌍 Test Context
+Describe the chosen real-world dataset, environment, or system you’ll validate (Example: DAO governance log, public AI training trace, or climate index data).  
