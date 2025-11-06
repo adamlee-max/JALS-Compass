@@ -99,3 +99,5 @@ If you just want the plain-English version, start here:
 - _This plain-English guide is now live and linked to the Stage 3 verified monitor._  
 → See current system health in [`/monitor/`](monitor/README.md)
 - ✅ Stage 6 complete — theoretical proof validated internally (pending external replication).
+
+> **Model family:** We use a **baseline static law** \(C_s = rac{\log S}{\log D}\) for clarity and falsifiability, and an **operational dynamic form** \(C(t,\pi)=\sigma[lpha E_m+eta R-\gamma(Pr+H+G)]\) for live systems under stress. (Earlier drafts used \(\Omega\) as a normaliser; in v5.0 we standardise on the logistic squash \(\sigma\); optional couplings \(\kappa_{ij}\) are noted where used.)
