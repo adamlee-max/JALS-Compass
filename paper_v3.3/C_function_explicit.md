@@ -1,5 +1,5 @@
 # Explicit Viability Function — C(t, π)
-
+> **Normalisation note (v5.0):** We standardise on the logistic squashing function \( \sigma(\cdot) \) for \( C(t,\pi) \). Earlier drafts used a global normaliser \( \Omega \); both play the same role (bounded mapping to \([0,1]\)). Optional couplings \( \kappa_{ij} \) are used only where stated.
 We define the system’s live viability score as:
 
 \[
