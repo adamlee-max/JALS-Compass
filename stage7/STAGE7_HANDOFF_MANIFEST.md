@@ -40,3 +40,4 @@ Reproduction of this package should yield identical checksums and identical resu
 ---
 
 **End of Stage-7 Handoff Manifest**
+Gemini revalidation trigger — Stage7 LSI v5.1_clean Sat Nov  8 16:28:03 UTC 2025
