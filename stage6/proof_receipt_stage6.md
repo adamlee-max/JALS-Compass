@@ -29,4 +29,4 @@ for the transition from theoretical validation to formal submission.
 This receipt exists solely as a transparency artifact.  
 It may be independently verified using:  
 ```bash
-git log -1 --stage6/SUBMISSION_CHECKLIST.md
+git log -1 -- stage6/SUBMISSION_CHECKLIST.md
