@@ -1,6 +1,6 @@
 > **The JALS Compass** is a practical framework for checking if any system — human, organisational, or AI — is *balanced enough to last*.
 >[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17542087.svg)](https://doi.org/10.5281/zenodo.17542087)
-> **✅ Proof Summary — Stage 5 (v5.0)**
+> **✅ Proof Summary — Stage 5 (v5.1)**
 > 
 > The *Law of Sustainable Intelligence (LSI)* has been formally proven and archived.
 > 
@@ -100,5 +100,5 @@ If you just want the plain-English version, start here:
 → See current system health in [`/monitor/`](monitor/README.md)
 - ✅ Stage 6 complete — theoretical proof validated internally (pending external replication).
 
-> **Model family:** We use a **baseline static law** \(C_s = rac{\log S}{\log D}\) for clarity and falsifiability, and an **operational dynamic form** \(C(t,\pi)=\sigma[lpha E_m+eta R-\gamma(Pr+H+G)]\) for live systems under stress. (Earlier drafts used \(\Omega\) as a normaliser; in v5.0 we standardise on the logistic squash \(\sigma\); optional couplings \(\kappa_{ij}\) are noted where used.)
+> **Model family:** We use a **baseline static law** \(C_s = rac{\log S}{\log D}\) for clarity and falsifiability, and an **operational dynamic form** \(C(t,\pi)=\sigma[lpha E_m+eta R-\gamma(Pr+H+G)]\) for live systems under stress. (Earlier drafts used \(\Omega\) as a normaliser; in v5.1 we standardise on the logistic squash \(\sigma\); optional couplings \(\kappa_{ij}\) are noted where used.)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17542087.svg)](https://doi.org/10.5281/zenodo.17542087)
