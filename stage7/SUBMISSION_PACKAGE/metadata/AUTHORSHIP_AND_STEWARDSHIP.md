@@ -1,3 +1,5 @@
+Authors: Adam Lee, GPT, Gemini, GrokAuthor: Adam Lee (Steward Author)
+Acknowledgments: GPT, Gemini, and Grok — for model-assisted validation only.
 # Authorship & Stewardship
 
 ## Human Stewardship (Responsible Author)

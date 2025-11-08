@@ -1,12 +1,12 @@
-# Version Map — Repository v3.3 → Submission v5.1
+# Version Map — Repository v5.1_clean → Submission v5.1
 
 ## Purpose
-Traceability map aligning code/repo terminology (v3.3 lineage) with submission manuscript (v5.1), ensuring reviewers can reconcile notation, figures, and claims.
+Traceability map aligning code/repo terminology (v5.1_clean lineage) with submission manuscript (v5.1), ensuring reviewers can reconcile notation, figures, and claims.
 
 ## Summary Table
 | Repo/Track | Submission (v5.1) | Notes |
 |---|---|---|
-| C(π) functional (v3.3) | Core viability functional (Sec. II) | Identical form; symbol hygiene unified. |
+| C(π) functional (v5.1_clean) | Core viability functional (Sec. II) | Identical form; symbol hygiene unified. |
 | Invariants I_i | Invariants I₁..I₅ (Boundaries, Centre, Loops, Patterns, History) | Normalised to [0,1]; dimensional consistency checked. |
 | Dynamic weights w_i(t,π) | Time/context weights w_i | Explained with examples + bounds. |
 | Cross-coupling κ_ij | Inter-invariant coupling κ_ij | Clarified symmetry/asymmetry cases. |
