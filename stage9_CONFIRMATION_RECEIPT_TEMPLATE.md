@@ -7,8 +7,8 @@
 ## 📨 Journal Confirmation
 **Journal:** Royal Society Open Science  
 **Manuscript Title:** *JALS Compass × Law of Sustainable Intelligence: A Unified Framework for Systemic Viability*  
-**Manuscript ID:** [to be filled on receipt]  
-**Submission Date (portal):** [to be filled]  
+**Manuscript ID:** RS-ID-####  
+**Submission Date (portal):** 2025-11-08 14:08 UTC  
 **Confirmation Email/Reference:** [paste or attach PDF copy here]  
 
 ---
