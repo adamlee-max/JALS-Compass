@@ -1,10 +1,7 @@
-# JALS Compass × Law of Sustainable Intelligence  
-**Version:** v5.1 (Submission Build)  
-**Author:** Adam Lee — Steward Author  
-**Dual Audit:** ✅ Gemini × Grok  
+***Author:** Adam Lee — Steward Author
 **Date:** $(date +"%Y-%m-%d %H:%M UTC")
-
----
+**Version:** v5.1_final (Stage 7 Closure)
+**Dual Audit:** ✅ Gemini × Grok
 
 ## Abstract  
 The *Law of Sustainable Intelligence* (LSI) proposes that systems capable of enduring change achieve balance through five invariant dynamics: boundaries, centre, loops, patterns, and history.  
