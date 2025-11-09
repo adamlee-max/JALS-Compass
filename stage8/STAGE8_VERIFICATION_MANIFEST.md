@@ -4,7 +4,7 @@
 
 **Package:** Gemini_AuditPayload_v5.1_ready.zip  
 **Trigger Receipt:** receipts/receipt_011_stage8_trigger.md  
-**Timestamp:** $(date -u)
+**Timestamp:** 2025-11-09 13:45 UTC
 
 ## Checks to run
 - [ ] Empirical replay — Anti-JALS collapse (C < 0.2) under identical stress  

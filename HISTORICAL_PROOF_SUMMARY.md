@@ -70,5 +70,5 @@ Adam Lee
 Greater Manchester Fire & Rescue Service / Independent Researcher  
 
 **Repository:** [adamlee-max/JALS-Compass](https://github.com/adamlee-max/JALS-Compass)  
-**Date:** $(date +"%Y-%m-%d %H:%M UTC")  
+**Date:** 2025-11-09 13:45 UTC  
 **Verification:** Commit hash `$(git rev-parse --short HEAD)` · Dual Audit (Gemini × Grok)
