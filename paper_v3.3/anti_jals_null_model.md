@@ -79,5 +79,5 @@ plot_survival([S_jals, S_anti], labels=["JALS","Anti-JALS"])
 **Verification Receipt:**  
 Dataset: Anti-JALS_FALSIFICATION_v5.1.csv  
 Result: Collapse confirmed (C < 0.2)  
-Audit Link: /reaults/ANTI_JALS_FALSIFICATION_v5.1.png  
+/results/ANTI_JALS_FALSIFICATION_v5.1.pngs
 Status: ✅ Verified (Stage 10)s
