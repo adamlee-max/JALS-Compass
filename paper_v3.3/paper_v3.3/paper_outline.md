@@ -1,4 +1,4 @@
-# Paper Outline — JALS Compass × Law of Sustainable Intelligence (v3.3)
+v5.1_final
 
 **Purpose:** Framework for the academic submission.  
 Each section expands from here into LaTeX/Markdown when drafting begins.
