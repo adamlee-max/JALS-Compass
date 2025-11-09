@@ -9,7 +9,7 @@
 ---
 
 ### 🌍 Test Context
-Describe the chosen real-world dataset, environment, or system you’ll validate (Example: DAO governance log, public AI training trace, or climate index data).  
+**System Tested:** Anti-JALS collapse dataset — 1,000 seeded runs (inverted weights, κ_ij = 0) under identical shock; mean C = 0.11 ± 0.04 within 38 ± 12 steps (all runs < 0.2). Artifacts: results/ANTI_JALS_FALSIFICATION_v5.1.png, results/Anti-JALS_FALSIFICATION_v5.1.csv
 ---
 
 ### 🧩 Empirical Test Log (Run 001)
