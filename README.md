@@ -1,3 +1,4 @@
+> 🧭 JALS Compass × Law of Sustainable Intelligence — Stage 11 Active Validation (v5.1_final)
 > **The JALS Compass** is a practical framework for checking if any system — human, organisational, or AI — is *balanced enough to last*.
 **Authors:** Adam Lee (JALS Research Group)  
 **Acknowledgements:** Assisted by large-language systems for analytical and formatting verification.
