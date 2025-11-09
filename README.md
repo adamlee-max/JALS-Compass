@@ -1,4 +1,6 @@
 > **The JALS Compass** is a practical framework for checking if any system — human, organisational, or AI — is *balanced enough to last*.
+**Authors:** Adam Lee (JALS Research Group)  
+**Acknowledgements:** Assisted by large-language systems for analytical and formatting verification.
 >[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17542087.svg)](https://doi.org/10.5281/zenodo.17542087)
 > **✅ Proof Summary — Stage 5 (v5.1)**
 > 
