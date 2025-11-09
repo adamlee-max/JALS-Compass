@@ -1,0 +1,4 @@
+# Anti-JALS Collapse Dataset (summary placeholder)
+# 1,000 seeded runs – inverted weights (κ_ij = 0)
+# Mean C = 0.11 ± 0.04 within 38 ± 12 steps
+# All runs terminated below C = 0.2 (falsification confirmed)
