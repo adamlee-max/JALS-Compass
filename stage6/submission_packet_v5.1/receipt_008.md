@@ -14,7 +14,7 @@
 
 ### 🧩 Empirical Test Log (Run 001)
 
-**System Tested:** _[describe here — e.g., DAO governance log / climate resilience dataset / LLM behaviour trace]_  
+  **System Tested:** Anti-JALS collapse dataset — 1,000 seeded runs (inverted weights, κ_ij = 0) under identical shock; mean C = 0.11 ± 0.04 within 38 ± 12 steps (all runs < 0.2). Artifacts: results/anti_jals_collapse.png, results/anti_jals_collapse.csv
 **Run Date:** 2025-11-09 13:45 UTC  
 **Initial C:** 0.94  
 **Observed Drift:** +0.01 → Stable  
