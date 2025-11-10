@@ -56,8 +56,7 @@ System drift is detected when the viability score \( \mathcal{C}(\pi,t) \) devia
 For practical monitoring, drift magnitude \( \Delta \mathcal{C} = \mathcal{C} - \mathcal{C}_0 \) and recovery time \( \tau_r \) are logged as diagnostic receipts. Sustained recovery within bounded \( \tau_r \) indicates resilience; unbounded drift signals collapse.
 # 3. Methods
 ## 3.1 Data and Preprocessing
-Brief description of datasets and preprocessing steps.
-
+The simulation dataset comprised 1,000 controlled system configurations generated under varying perturbation levels. Each configuration produced time-series outputs for the five invariant signals \( I_i(t,\pi) \), normalised to [0,1]. Pre-processing included smoothing transient noise, ensuring temporal alignment, and rescaling signals to a consistent resolution before computing the viability functional.
 ## 3.2 Computation of \( \mathcal{C} \)
 Algorithmic steps to compute the viability score.
 
