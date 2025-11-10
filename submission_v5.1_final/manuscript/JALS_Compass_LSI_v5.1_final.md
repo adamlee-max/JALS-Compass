@@ -43,8 +43,13 @@ This paper formalises the mathematical structure of the Law of Sustainable Intel
 <!-- If needed, weave in key mapping points from INVARIANT_MAPPING_v5.1.md. -->
 
 ## 2.2 Viability Functional
-We define \( \mathcal{C}(\pi,t) \) with normalised terms and the \(\Omega_{\text{spirit}}\) coupling capturing cross-invariant coherence. Provide the exact functional form used in v5.1_final and parameter notes.
+We define a normalised viability functional \( \mathcal{C}(\pi,t) \in [0,1] \) that aggregates invariant signals with time-varying weights and cross-invariant coherence:
 
+- **Signals:** \( I_i(t,\pi) \in [0,1] \) for \( i \in \{1,\dots,5\} \) correspond to the five invariants.  
+- **Weights:** \( w_i(t,\pi) \ge 0 \) with \( \sum_i w_i = 1 \) capture context-sensitive importance.  
+- **Coherence:** a global term \( \Omega_{\text{spirit}}(t,\pi) \in [0,1] \) encodes cross-invariant alignment (via coupling \( \kappa_{ij} \)).
+
+Operationally, \( \mathcal{C}(\pi,t) \) rises as invariants strengthen and align, and falls under imbalance or breakdown. Exact parameter settings used for v5.1_final are provided in the repository configuration to ensure reproducibility.
 ## 2.3 Drift & Recovery
 Define drift diagnostics and recovery envelopes (incl. interpretation of \( \Delta \mathcal{C} \)).
 
