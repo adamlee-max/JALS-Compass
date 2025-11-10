@@ -28,8 +28,15 @@ Together, the analytical derivation and empirical falsification support the LSI 
 We propose the JALS Compass × Law of Sustainable Intelligence (LSI), a universal viability functional \( \mathcal{C}(\pi,t) \) that assesses whether a system can hold its dynamic centre under perturbation. We motivate the five invariants, define the operational signals, and outline falsifiable predictions
 # 2. Framework
 ## 2.1 Invariants and Signals
- The JALS Compass is a practical framework for determining whether any system—human, organisational, or artificial—remains balanced enough to endure. It operationalises the Law of Sustainable Intelligence (LSI), which proposes that enduring systems sustain coherence through five measurable invariants: Boundary Symmetry, Dynamic Centre, Loop Continuity, Pattern Sufficiency, and Recurrence.
+The framework formalises five measurable invariants that together define sustainable intelligence:
 
+1. **Boundary Symmetry** – how well the system maintains balanced exchange with its environment.  
+2. **Dynamic Centre** – the system’s internal equilibrium point that adjusts under pressure without collapse.  
+3. **Loop Continuity** – the integrity of feedback and learning cycles across time.  
+4. **Pattern Sufficiency** – the richness and coherence of structural patterns that sustain function.  
+5. **Recurrence** – the ability of a system to recover its state following perturbation.
+
+Each invariant generates a signal \( I_i(t,\pi) \) normalised between 0 and 1. These signals feed into the composite viability functional \( \mathcal{C}(\pi,t) \), producing a continuous measure of systemic balance.
 The framework provides a single viability score, \( \mathcal{C}(\pi,t) \), that captures the degree to which a system maintains balance under perturbation. Across empirical simulations, the Compass demonstrated that systems adhering to these invariants sustain higher coherence and recover more quickly after disruption, whereas anti-coherent configurations collapse.
 
 This paper formalises the mathematical structure of the Law of Sustainable Intelligence, presents the derivation of the viability functional, and provides empirical validation through controlled simulations. The goal is to establish a unified law for sustainable intelligence that applies equally to natural, social, and artificial systems.Summarise each invariant and its measurement signal.
