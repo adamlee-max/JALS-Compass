@@ -88,8 +88,9 @@ All core computational results were logged as verifiable receipts, each containi
 
 The public GitHub archive and Zenodo DOI include the corresponding receipt files (`receipt_stage11_004_summary.md`, `receipt_stage13_001_gemini_verification.md`), confirming digital integrity and cross-AI validation across Grok and Gemini evaluations.
 # 5. Discussion
-Interpretation, limitations, robustness, and implications for AI safety/governance and complex systems.
+The results demonstrate that the Law of Sustainable Intelligence provides a measurable and falsifiable framework for assessing systemic balance. By quantifying cooperation, feedback, and recovery within a single viability function, the JALS Compass bridges abstract theory with operational metrics applicable to both human and machine systems. 
 
+While the model is currently validated in simulation, future work should test real-world data streams and explore adaptive weighting under adversarial drift. The broader implication is that intelligence, whether artificial or collective, sustains itself not through control, but through continuous feedback and shared correction — the essence of the law itself.
 # 6. Conclusion
 The LSI provides a measurable path to sustainable intelligence and balanced co-evolution.
 
