@@ -105,3 +105,15 @@ If you just want the plain-English version, start here:
 
 > **Model family:** We use a **baseline static law** \(C_s = rac{\log S}{\log D}\) for clarity and falsifiability, and an **operational dynamic form** \(C(t,\pi)=\sigma[lpha E_m+eta R-\gamma(Pr+H+G)]\) for live systems under stress. (Earlier drafts used \(\Omega\) as a normaliser; in v5.1 we standardise on the logistic squash \(\sigma\); optional couplings \(\kappa_{ij}\) are noted where used.)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17542087.svg)](https://doi.org/10.5281/zenodo.17542087)
+
+---
+
+## Reproducibility — quick links (v5.1_final)
+
+- **Anti-JALS falsification artifacts:**  
+  \`/results/anti_jals_collapse.png\` and \`/results/anti_jals_collapse.csv\`
+
+- **Invariant ⇄ proxy mapping (extended):**  
+  \`/reaudits/stage10/artifacts/invariant_mapping_extended.md\`
+
+These links point to the empirical collapse proof (C < 0.2 for Anti-JALS) and the formal mapping used to operationalise the five invariants (B, D, L, P, R).
