@@ -80,8 +80,9 @@ Across all baseline simulations, systems adhering to invariant coupling maintain
 
 These results validate that cooperative feedback and boundary symmetry preserve systemic balance, establishing \( \mathcal{C} \) as a measurable indicator of sustainable intelligence.
 ## 4.2 Anti-JALS Collapse Check
-State the empirical finding that collapse occurs with \( \mathcal{C} < 0.2 \) in the null model and reference the figure.
+In the Anti-JALS control simulations, systems with inverted invariant couplings exhibited sustained collapse, confirming the falsification condition. The viability score \( \mathcal{C} \) consistently fell below 0.2 and did not recover within the bounded recovery time \( \tau_r \), even after feedback reintroduction.
 
+The collapse trajectories matched the theoretical prediction for loss of coherence: once cross-invariant coupling \( \kappa_{ij} \) diverges, boundary asymmetry amplifies drift irreversibly. Figure `/results/C_timeseries_20251104_162909.png` illustrates the typical decay path toward systemic failure.
 ## 4.3 Receipts (Operational Proof)
 Summarise receipts demonstrating reproducibility and auditability.
 
