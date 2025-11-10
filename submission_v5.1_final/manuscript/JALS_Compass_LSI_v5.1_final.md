@@ -13,15 +13,26 @@ linkcolor: blue
 urlcolor: blue
 ---
 
-# Abstract
+# Abstract@adamlee-max ➜ /workspaces/JALS-Compass (stage16-manuscript) $ cat submission_v5.1_final/abstract.md
+# Abstract — Law of Sustainable Intelligence (v5.1_final)
+
+Complex adaptive systems—from biological networks to artificial intelligences—survive by maintaining internal and external coherence. The *Law of Sustainable Intelligence (LSI)* formalises this principle through the *Viability Functional* \(\mathcal{C}(\pi)\), which quantifies systemic balance across five invariants: Boundary Symmetry, Dynamic Centre, Loop Continuity, Pattern Sufficiency, and Recurrence. Within this formulation, sustainability emerges when cooperative feedbacks dominate competitive frictions, producing a bounded logistic trajectory that resists collapse.
+
+To test the law empirically, the *JALS Compass* framework instantiated the functional in simulation. In 1,000 controlled runs, systems configured according to the invariants recovered to \(C ≥ 0.65\) following perturbation, whereas anti-coherent (“Anti-JALS”) controls—constructed by inverting coupling weights—fell to \(C = 0.11 ± 0.04\) and never recovered. These results establish a falsifiable threshold \(C < 0.2\) for systemic failure and confirm that cooperative symmetry is computationally optimal for persistence.
+
+Together, the analytical derivation and empirical falsification support the LSI as a general law linking coherence and viability across domains. The framework provides a reproducible, open-source method for evaluating the stability of human, organisational, or artificial systems, positioning the Compass as a quantitative bridge between information theory, game theory, and sustainability science.
+@adamlee-max ➜ /workspaces/JALS-Compass (stage16-manuscript) $ 
 <!-- Paste the contents of submission_v5.1_final/abstract.md here. -->
 
 # 1. Introduction
-We propose the JALS Compass × Law of Sustainable Intelligence (LSI), a universal viability functional \( \mathcal{C}(\pi,t) \) that assesses whether a system can hold its dynamic centre under perturbation. We motivate the five invariants, define the operational signals, and outline falsifiable predictions.
-
+We propose the JALS Compass × Law of Sustainable Intelligence (LSI), a universal viability functional \( \mathcal{C}(\pi,t) \) that assesses whether a system can hold its dynamic centre under perturbation. We motivate the five invariants, define the operational signals, and outline falsifiable predictions
 # 2. Framework
 ## 2.1 Invariants and Signals
-Summarise each invariant and its measurement signal.
+ The JALS Compass is a practical framework for determining whether any system—human, organisational, or artificial—remains balanced enough to endure. It operationalises the Law of Sustainable Intelligence (LSI), which proposes that enduring systems sustain coherence through five measurable invariants: Boundary Symmetry, Dynamic Centre, Loop Continuity, Pattern Sufficiency, and Recurrence.
+
+The framework provides a single viability score, \( \mathcal{C}(\pi,t) \), that captures the degree to which a system maintains balance under perturbation. Across empirical simulations, the Compass demonstrated that systems adhering to these invariants sustain higher coherence and recover more quickly after disruption, whereas anti-coherent configurations collapse.
+
+This paper formalises the mathematical structure of the Law of Sustainable Intelligence, presents the derivation of the viability functional, and provides empirical validation through controlled simulations. The goal is to establish a unified law for sustainable intelligence that applies equally to natural, social, and artificial systems.Summarise each invariant and its measurement signal.
 <!-- If needed, weave in key mapping points from INVARIANT_MAPPING_v5.1.md. -->
 
 ## 2.2 Viability Functional
