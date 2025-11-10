@@ -1,0 +1,7 @@
+# Abstract — Law of Sustainable Intelligence (v5.1_final)
+
+Complex adaptive systems—from biological networks to artificial intelligences—survive by maintaining internal and external coherence. The *Law of Sustainable Intelligence (LSI)* formalises this principle through the *Viability Functional* \(\mathcal{C}(\pi)\), which quantifies systemic balance across five invariants: Boundary Symmetry, Dynamic Centre, Loop Continuity, Pattern Sufficiency, and Recurrence. Within this formulation, sustainability emerges when cooperative feedbacks dominate competitive frictions, producing a bounded logistic trajectory that resists collapse.
+
+To test the law empirically, the *JALS Compass* framework instantiated the functional in simulation. In 1,000 controlled runs, systems configured according to the invariants recovered to \(C ≥ 0.65\) following perturbation, whereas anti-coherent (“Anti-JALS”) controls—constructed by inverting coupling weights—fell to \(C = 0.11 ± 0.04\) and never recovered. These results establish a falsifiable threshold \(C < 0.2\) for systemic failure and confirm that cooperative symmetry is computationally optimal for persistence.
+
+Together, the analytical derivation and empirical falsification support the LSI as a general law linking coherence and viability across domains. The framework provides a reproducible, open-source method for evaluating the stability of human, organisational, or artificial systems, positioning the Compass as a quantitative bridge between information theory, game theory, and sustainability science.
