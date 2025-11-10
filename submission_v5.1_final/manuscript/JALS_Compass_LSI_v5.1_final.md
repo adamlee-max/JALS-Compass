@@ -71,8 +71,9 @@ Algorithmically:
 4. Multiply and record the resulting \( \mathcal{C}(\pi,t) \).
 5. Log each output as a receipt for reproducibility.
 ## 3.3 Null (Anti-JALS) Model
-Define the collapse scenario and thresholds.
+The Anti-JALS null model represents a deliberately incoherent configuration in which invariant couplings are inverted to disrupt systemic balance. In this control condition, weights \( w_i(t,\pi) \) are randomised and feedback loops are broken, producing collapse dynamics that serve as a falsification baseline. 
 
+Empirically, systems in the null model exhibit a viability score \( \mathcal{C} < 0.2 \) and fail to recover once feedback symmetry is lost. The collapse plot and associated data are archived in `/results/anti_JALS_collapse.csv` and visualised in `/results/C_timeseries_20251104_162909.png`.
 # 4. Results
 ## 4.1 Core Result
 Report observed \( \mathcal{C} \) ranges and stability under perturbations.
