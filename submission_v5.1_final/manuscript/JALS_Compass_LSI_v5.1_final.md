@@ -92,8 +92,9 @@ The results demonstrate that the Law of Sustainable Intelligence provides a meas
 
 While the model is currently validated in simulation, future work should test real-world data streams and explore adaptive weighting under adversarial drift. The broader implication is that intelligence, whether artificial or collective, sustains itself not through control, but through continuous feedback and shared correction — the essence of the law itself.
 # 6. Conclusion
-The LSI provides a measurable path to sustainable intelligence and balanced co-evolution.
+The Law of Sustainable Intelligence (LSI) formalises the conditions under which complex systems can remain balanced, adaptive, and self-correcting over time. Through the JALS Compass, this principle becomes operational: a framework that measures not only performance but coherence, resilience, and the capacity to recover.
 
+By providing a falsifiable metric of balance, the LSI bridges theoretical insight with practical governance. It invites replication, transparency, and shared verification — the foundation of a science designed to evolve alongside the systems it studies.
 # References
 <!-- Add references here if needed. -->
 
