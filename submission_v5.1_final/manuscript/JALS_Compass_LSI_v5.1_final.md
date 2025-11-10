@@ -58,8 +58,18 @@ For practical monitoring, drift magnitude \( \Delta \mathcal{C} = \mathcal{C} - 
 ## 3.1 Data and Preprocessing
 The simulation dataset comprised 1,000 controlled system configurations generated under varying perturbation levels. Each configuration produced time-series outputs for the five invariant signals \( I_i(t,\pi) \), normalised to [0,1]. Pre-processing included smoothing transient noise, ensuring temporal alignment, and rescaling signals to a consistent resolution before computing the viability functional.
 ## 3.2 Computation of \( \mathcal{C} \)
-Algorithmic steps to compute the viability score.
+The viability functional \( \mathcal{C}(\pi,t) \) was computed at each time step as a weighted mean of the invariant signals and a coherence adjustment term:
 
+\[
+\mathcal{C}(\pi,t) = \sum_{i=1}^{5} w_i(t,\pi) I_i(t,\pi) \, \Omega_{\text{spirit}}(t,\pi)
+\]
+
+Algorithmically:
+1. Read invariant signals \( I_i(t,\pi) \) for the current state.
+2. Apply weights \( w_i(t,\pi) \) and normalise so \( \sum_i w_i = 1 \).
+3. Compute the cross-invariant coherence \( \Omega_{\text{spirit}}(t,\pi) \).
+4. Multiply and record the resulting \( \mathcal{C}(\pi,t) \).
+5. Log each output as a receipt for reproducibility.
 ## 3.3 Null (Anti-JALS) Model
 Define the collapse scenario and thresholds.
 
