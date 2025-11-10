@@ -84,8 +84,9 @@ In the Anti-JALS control simulations, systems with inverted invariant couplings 
 
 The collapse trajectories matched the theoretical prediction for loss of coherence: once cross-invariant coupling \( \kappa_{ij} \) diverges, boundary asymmetry amplifies drift irreversibly. Figure `/results/C_timeseries_20251104_162909.png` illustrates the typical decay path toward systemic failure.
 ## 4.3 Receipts (Operational Proof)
-Summarise receipts demonstrating reproducibility and auditability.
+All core computational results were logged as verifiable receipts, each containing time-stamped configuration data, parameter hashes, and output checksums. These receipts demonstrate full reproducibility and enable independent audit of every simulation run.
 
+The public GitHub archive and Zenodo DOI include the corresponding receipt files (`receipt_stage11_004_summary.md`, `receipt_stage13_001_gemini_verification.md`), confirming digital integrity and cross-AI validation across Grok and Gemini evaluations.
 # 5. Discussion
 Interpretation, limitations, robustness, and implications for AI safety/governance and complex systems.
 
