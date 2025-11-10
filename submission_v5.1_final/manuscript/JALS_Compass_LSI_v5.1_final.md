@@ -51,8 +51,9 @@ We define a normalised viability functional \( \mathcal{C}(\pi,t) \in [0,1] \) t
 
 Operationally, \( \mathcal{C}(\pi,t) \) rises as invariants strengthen and align, and falls under imbalance or breakdown. Exact parameter settings used for v5.1_final are provided in the repository configuration to ensure reproducibility.
 ## 2.3 Drift & Recovery
-Define drift diagnostics and recovery envelopes (incl. interpretation of \( \Delta \mathcal{C} \)).
+System drift is detected when the viability score \( \mathcal{C}(\pi,t) \) deviates persistently beyond a defined tolerance window. Recovery occurs when corrective feedback restores \( \mathcal{C} \) toward its equilibrium trajectory \( \mathcal{C}_0(t) \). 
 
+For practical monitoring, drift magnitude \( \Delta \mathcal{C} = \mathcal{C} - \mathcal{C}_0 \) and recovery time \( \tau_r \) are logged as diagnostic receipts. Sustained recovery within bounded \( \tau_r \) indicates resilience; unbounded drift signals collapse.
 # 3. Methods
 ## 3.1 Data and Preprocessing
 Brief description of datasets and preprocessing steps.
