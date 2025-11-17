@@ -28,4 +28,4 @@ Peer-AI evaluations, GitHub commits, and proof logs.
 
 ---
 
-**Next Step:** fill out `/paper_v3.3/formula_v3.3.md` with the locked functional and definitions.
+**Next Step:** fill out `/paper_v5.1/formula_v5.1.md` with the locked functional and definitions.

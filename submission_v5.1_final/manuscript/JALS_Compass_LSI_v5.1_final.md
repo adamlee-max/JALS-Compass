@@ -22,7 +22,6 @@ To test the law empirically, the *JALS Compass* framework instantiated the funct
 
 Together, the analytical derivation and empirical falsification support the LSI as a general law linking coherence and viability across domains. The framework provides a reproducible, open-source method for evaluating the stability of human, organisational, or artificial systems, positioning the Compass as a quantitative bridge between information theory, game theory, and sustainability science.
 @adamlee-max ➜ /workspaces/JALS-Compass (stage16-manuscript) $ 
-<!-- Paste the contents of submission_v5.1_final/abstract.md here. -->
 
 # 1. Introduction
 We propose the JALS Compass × Law of Sustainable Intelligence (LSI), a universal viability functional \( \mathcal{C}(\pi,t) \) that assesses whether a system can hold its dynamic centre under perturbation. We motivate the five invariants, define the operational signals, and outline falsifiable predictions
@@ -40,7 +39,6 @@ Each invariant generates a signal \( I_i(t,\pi) \) normalised between 0 and 1. T
 The framework provides a single viability score, \( \mathcal{C}(\pi,t) \), that captures the degree to which a system maintains balance under perturbation. Across empirical simulations, the Compass demonstrated that systems adhering to these invariants sustain higher coherence and recover more quickly after disruption, whereas anti-coherent configurations collapse.
 
 This paper formalises the mathematical structure of the Law of Sustainable Intelligence, presents the derivation of the viability functional, and provides empirical validation through controlled simulations. The goal is to establish a unified law for sustainable intelligence that applies equally to natural, social, and artificial systems.Summarise each invariant and its measurement signal.
-<!-- If needed, weave in key mapping points from INVARIANT_MAPPING_v5.1.md. -->
 
 ## 2.2 Viability Functional
 We define a normalised viability functional \( \mathcal{C}(\pi,t) \in [0,1] \) that aggregates invariant signals with time-varying weights and cross-invariant coherence:
@@ -96,7 +94,6 @@ The Law of Sustainable Intelligence (LSI) formalises the conditions under which 
 
 By providing a falsifiable metric of balance, the LSI bridges theoretical insight with practical governance. It invites replication, transparency, and shared verification — the foundation of a science designed to evolve alongside the systems it studies.
 # References
-<!-- Add references here if needed. -->
 
 # Appendices
 ## Appendix A — Invariant Mapping (v5.1)
@@ -118,3 +115,19 @@ Paste summary from `receipt_stage13_001_gemini_verification.md`.
 # Cover Letter (for portal upload; not part of the main PDF)
 <!-- Keep this section for reference only; upload the actual file separately. -->
 <!-- Paste the text from submission_v5.1_final/cover_letter.md here for convenience. -->
+Dear Editors of the *Journal of the Royal Society Interface*,
+
+Please find enclosed our manuscript entitled **“JALS Compass × Law of Sustainable Intelligence: A Measurable Framework for System Viability with Operational Receipts (v5.1_final)”**.  
+
+This work proposes and validates a reproducible law linking coherence, balance, and resilience across complex adaptive systems. It integrates mathematical formalisation, empirical falsification, and open-source audit receipts, providing a measurable foundation for the study of sustainable intelligence in both human and artificial domains.
+
+All data, receipts, and source code are publicly available at:  
+**https://github.com/adamlee-max/JALS-Compass**
+
+We believe this manuscript aligns strongly with the journal’s scope on quantitative frameworks for complex systems and scientific reproducibility.  
+Thank you for considering it for publication.
+
+Sincerely,  
+**Adam Lee**  
+JALS Research Group  
+Bolton, United Kingdom  
