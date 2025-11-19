@@ -1,119 +1,147 @@
-> 🧭 JALS Compass × Law of Sustainable Intelligence — Stage 11 Active Validation (v5.1_final)
-> **The JALS Compass** is a practical framework for checking if any system — human, organisational, or AI — is *balanced enough to last*.
-**Authors:** Adam Lee (JALS Research Group)  
-**Acknowledgements:** Assisted by large-language systems for analytical and formatting verification.
->[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17542087.svg)](https://doi.org/10.5281/zenodo.17542087)
-> **✅ Proof Summary — Stage 5 (v5.1)**
-> 
-> The *Law of Sustainable Intelligence (LSI)* has been formally proven and archived.
-> 
-> - **DOI:** [10.5281/zenodo.17542087](https://doi.org/10.5281/zenodo.17542087)  
-> - **Perma Record:** [https://perma.cc/N6BV-E9GK](https://perma.cc/N6BV-E9GK)  
-> - **Verification Commit:** `8e8029d`  
-> - **Viability Score:** `C = 0.92 (Proof Condition Met)`
->
-> Stage 5 confirms the Compass can *falsify its opposite* (“Anti-JALS” null model) and empirically sustain coherence under shock tests.  
-> The Law is now closed under the tri-proof loop — **mathematical + empirical + digital validation** — and is considered stable for open scientific replication.
->
-> 🩶 *Balance wins. Always.*
-> It works through five simple checks (boundaries, centre, loops, patterns, history) and produces a quick C-score to show stability.
->
-> Think of it as a reality gauge: “Are we still balanced, and can we prove it?”
->
-> # JALS Compass × Law of Sustainable Intelligence (LSI) — Stage 3 (v3.3)
->🩺 **Live Status:** See [`/monitor/`](monitor/README.md) → System viable ✅ C ≈ +0.8  |  External proof: Perma.cc 🔒🗂️ **Repo Map:** `/paper_v3.3` → academic core · `/drafts` → layman’s pack · `/receipts` → real-world proofs · `/assets` → visuals
-
-📄 **Executive Abstract:** [/drafts/Executive_Abstract.md](drafts/Executive_Abstract.md)  
-📢 **[Read the Public Statement →](Public_Statement.md)**  
-
-A short human introduction to what the Compass is and why it exists.**Status:** Stage 3 – LSI v3.3 locked • **Date:** 30 Oct 2025 (UTC+0)  
-**Purpose:** This repo is the canonical, timestamped record (“receipt of existence”) for the JALS Compass and the Law of Sustainable Intelligence (LSI).
-
-## What this is
-The **JALS Compass** operationalises the **Law of Sustainable Intelligence** using five invariants:
-1) Boundary Symmetry  2) Dynamic Centre  3) Loop Continuity  4) Pattern Sufficiency  5) Recurrence
-
-v3.3 introduces: time-varying weights **wᵢ(t, π)**, cross-invariant coupling **κᵢⱼ**, and a formalised global coherence term **Ω_spirit**.  
-The full functional and definitions live in `/paper_v3.3/formula_v3.3.md`.
-
-## Why this repo matters
-- **Single source of truth** for the math, proofs, and receipts.  
-- **Public traceability:** each commit is a dated receipt.  
-- **Interoperable:** papers, app blueprints, and validations reference this repo.
-## C(π): Law vs Operational Proxy (repo truth)
-
-**This repo implements a pragmatic proxy of the Law.**  
-The formal law lives in the paper; here we use a simple, reproducible score for quick checks and examples.
-
-### Formal law (paper)
-- **Snapshot (state):** \( C_s(\pi,t) = \frac{\log S(t)}{\log D(t)} \)  
-- **Dynamic (process):** \( \displaystyle \frac{dC(\pi,t)}{dt} = \frac{d}{dt}\Big(\frac{\log S(t)}{\log D(t)}\Big) \)  
-  - Read: how fast coherence is improving or decaying over time.
-
-> **Meta-Law (guiding principle):**  
-> Systems that maintain coherence through noise, drift, and interaction tend to survive; those that cannot, dissolve.
-
-### Operational proxy (used in this repo)
-We use a **linear heuristic** for fast, transparent scoring in examples/sims:
-
-\[
-C_{\text{proxy}}(\pi) \;=\; 0.3\,E_m \;+\; 0.3\,R \;-\; 0.2\,Pr \;-\; 0.1\,H \;-\; 0.1\,G
-\]
-
-- \(E_m\): meaningful effort \(R\): reciprocity \(Pr\): breach risk  
-- \(H\): opacity/hiddenness \(G\): regret/goal drift  
-- Range: \([-1, +1]\) approx. Higher = more viable.
-
-> **Disclosure:** `C_proxy` is a **pragmatic proxy**, not the Law itself.  
-> Full derivation and dynamic form are in the paper (see `/paper_v3.3/`).
-
-### Falsifiability (how this can be wrong)
-If a system **sustains survival** while its measured coherence **decreases over time** (dynamic \(dC/dt<0\) persistently), the law fails.  
-If coherence increases yet the system **consistently collapses**, the law fails.  
-This repo includes small sims to make that check explicit.
-## Relationship to Paper
-This repository serves as the **operational layer** of the *Law of Sustainable Intelligence* (LSI v3.3), mirroring the formal derivation in [`/paper_v3.3/formula_v3.3.md`](paper_v3.3/formula_v3.3.md) and its philosophical context in [`/paper_v3.3/Philosophical_Paper_LSIv3.3.md`](paper_v3.3/Philosophical_Paper_LSIv3.3.md).
-Each update here corresponds to a validated stage or “receipt” of theoretical evolution.### Quick example (proxy)
-```python
-from compass import jals_compass  # C_proxy
-score = jals_compass(E_m=0.85, R=0.80, Pr=0.15, H=0.10, G=0.05)
-print(f"C_proxy = {score:.2f}")
-# Tip: treat >0.2 as “viable” in examples; tune per domain.## Repo layout (Stage 3 seed)
-→ See [`/examples/finance_trading.json`](examples/finance_trading.json) for a full JSON-based system test.- [`/paper_v3.3/`](paper_v3.3/README.md) — academic paper materials (outline, formula, and [Philosophical Paper — LSI v3.3](paper_v3.3/Philosophical_Paper_LSIv3.3.md))  
-- [`/receipts/`](receipts/) — validation runs & logs (Compass Receipts)  
-- [`/drafts/`](drafts/) — philosophical companion & layman’s pack  
-- [`/assets/`](assets/) — diagrams and figures  
-- [`README.md`](README.md) — this file (project home)
-
-## Quick start
-- Read the functional: `/paper_v3.3/formula_v3.3.md`  
-- See proof templates: `/receipts/compass_receipt_001.md` (coming next step)  
-- Track changes via Releases (v3.3+)
-
-## Citation (placeholder)
-JALS Research Group (2025). *The Law of Sustainable Intelligence & the JALS Compass (v3.3).* GitHub repository.  
----
-
-## 💬 Layman’s Pack
-If you just want the plain-English version, start here:
-
-- [Layman’s Pack](drafts/laymans_pack.md)
-- [Quick Checklist](drafts/laymans_checklist.md)
-- _This plain-English guide is now live and linked to the Stage 3 verified monitor._  
-→ See current system health in [`/monitor/`](monitor/README.md)
-- ✅ Stage 6 complete — theoretical proof validated internally (pending external replication).
-
-> **Model family:** We use a **baseline static law** \(C_s = rac{\log S}{\log D}\) for clarity and falsifiability, and an **operational dynamic form** \(C(t,\pi)=\sigma[lpha E_m+eta R-\gamma(Pr+H+G)]\) for live systems under stress. (Earlier drafts used \(\Omega\) as a normaliser; in v5.1 we standardise on the logistic squash \(\sigma\); optional couplings \(\kappa_{ij}\) are noted where used.)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17542087.svg)](https://doi.org/10.5281/zenodo.17542087)
+JALS Compass × Law of Sustainable Intelligence (LSI)
 
----
+Working hypothesis: systems that maintain coherent balance across their boundaries, centre, feedback loops, patterns, and history tend to survive; those that cannot, dissolve.
 
-## Reproducibility — quick links (v5.1_final)
+This repository hosts the JALS Compass, an operational framework for assessing whether a system — human, organisational, or artificial — is balanced enough to last, together with a candidate Law of Sustainable Intelligence (LSI) that motivates it.
 
-- **Anti-JALS falsification artifacts:**  
-  \`/results/anti_jals_collapse.png\` and \`/results/anti_jals_collapse.csv\`
+The repo is under active investigation. The goal is not to declare a final law, but to make the current formulation and evidence transparent, testable, and falsifiable.
 
-- **Invariant ⇄ proxy mapping (extended):**  
-  \`/reaudits/stage10/artifacts/invariant_mapping_extended.md\`
+⸻
 
-These links point to the empirical collapse proof (C < 0.2 for Anti-JALS) and the formal mapping used to operationalise the five invariants (B, D, L, P, R).
+Current Status
+
+Stage 17 – Null-model receipt:
+	•	10,000-run simulation comparing a JALS-aligned system vs an Anti-JALS null model
+	•	Code: /experiments/null_model/null_model_sim.py
+	•	Outputs: survival curves + CSV artifacts in /results/ and /proof_receipts/
+	•	In the experiments run so far, the Anti-JALS baseline consistently collapses faster than the JALS-aligned system.
+
+Stage 18 – Repo & manuscript clean-up (in progress):
+	•	Align README and repo map with the v5.1 manuscript
+	•	Clarify measurement and proxy alignment
+	•	Tighten reproducibility paths for external reviewers
+
+Manuscript version:
+	•	Core scientific write-up: /paper_v5.1/
+	•	Submission packet: /submission_v5.1_final/
+
+⸻
+
+Canonical Records & External Proofs
+
+These resources are intended as receipts, not as claims of finality.
+
+Zenodo archive (Stage 5 proof packet):
+DOI: 10.5281/zenodo.17542087
+
+Perma.cc record (external timestamp):
+https://perma.cc/N6BV-E9GK
+
+Historical snapshots & audits:
+	•	Stage 3 archive (v3.3): /archive_paper_v3.3/
+	•	Historical proof summary: HISTORICAL_PROOF_SUMMARY.md
+	•	Stage reports and receipts: /proof_receipts/
+
+The intention is that any future critic or collaborator can trace what was claimed, when, and on the basis of which evidence.
+
+⸻
+
+What the JALS Compass Tries to Measure
+
+Five invariants:
+	1.	Boundary Symmetry (B)
+	2.	Dynamic Centre (D)
+	3.	Loop Continuity (L)
+	4.	Pattern Sufficiency (P)
+	5.	Recurrence (R)
+
+The Law of Sustainable Intelligence (LSI) is a proposed relationship between a system’s coherence and its long-run viability.
+The Compass is a pragmatic operationalisation of that idea.
+
+⸻
+
+Law vs Operational Proxy
+
+The repo distinguishes between the theoretical law (in the paper) and the simple operational proxy (used in examples and sims).
+
+Theoretical form (paper)
+
+Formal definitions live in:
+	•	/paper_v5.1/formula_v5.1.md
+	•	/paper_v5.1/Philosophical_Paper_LSIv5.1.md
+
+High-level test:
+If coherence decreases while a system survives indefinitely, the law fails.
+If coherence increases while the system repeatedly collapses, the law fails.
+
+Operational proxy (repo)
+
+C_proxy(pi) = 0.3 Em + 0.3 R – 0.2 Pr – 0.1 H – 0.1 G
+
+Where:
+	•	Em = meaningful effort
+	•	R = reciprocity
+	•	Pr = breach risk
+	•	H = opacity
+	•	G = regret / goal drift
+
+Range approx [-1, 1].
+Implementation: compass.py.
+
+⸻
+
+Reproducibility – Quick Start
+
+Clone and run:
+
+git clone https://github.com/adamlee-max/JALS-Compass.git
+cd JALS-Compass
+
+Run null model (Stage 17):
+
+python experiments/null_model/null_model_sim.py
+
+Outputs will appear in /results/, /assets/, and /proof_receipts/.
+
+⸻
+
+Repo Map (Stage 17+)
+	•	paper_v5.1/
+	•	submission_v5.1_final/
+	•	experiments/null_model/
+	•	results/
+	•	proof_receipts/
+	•	monitor/
+	•	peer_reviews/
+	•	archive_paper_v3.3/
+	•	HISTORICAL_PROOF_SUMMARY.md
+
+⸻
+
+What Is Still Open?
+
+This repo tracks open questions such as:
+	•	Domain robustness of the proposed law
+	•	Sufficiency of the current invariants
+	•	Conditions where Anti-JALS does not collapse
+	•	Adversarial counterexamples
+
+Counterexamples and refinements are logged as first-class receipts.
+
+⸻
+
+Contributing / Contact
+
+Contributions include:
+	•	replications
+	•	counterexamples
+	•	alternative measurement schemes
+	•	theoretical critiques
+
+Contact information in AUTHORS.md.
+
+⸻
+
+This repo is an attempt to treat intelligence, balance, and survival as measurable and falsifiable.
+The real test is what survives sustained scrutiny.
