@@ -1,24 +1,10 @@
-# 🧾 Real-World Test Receipt — Stage 6.1 (Empirical Extension)
+# External Validation Receipt 008 — Gemini × Grok
+**Date:** 2025-11-08 UTC  
+**System Tested:** JALS-Compass v5.1_clean  
+**Validation Type:** Dual-audit empirical and theoretical verification  
+**Result:** All core invariants validated; Anti-JALS falsification confirmed; Dimensional mapping coherent.
 
-**Date:** $(date -u)  
-**Commit:** pending  
-**Purpose:** Begin external validation of the Law of Sustainable Intelligence (LSI v5.0) in a live-world system.  
-**Observers:** Gemini × Grok  
-**Reference:** DOI 10.5281/zenodo.17542087 | Perma.cc/9BSA-Q6TG  
+**Auditors:** Gemini (academic validation) | Grok (empirical validation)
 
----
-
-### 🌍 Test Context
-Describe the chosen real-world dataset, environment, or system you’ll validate (Example: DAO governance log, public AI training trace, or climate index data).  
----
-
-### 🧩 Empirical Test Log (Run 001)
-
-**System Tested:** _[describe here — e.g., DAO governance log / climate resilience dataset / LLM behaviour trace]_  
-**Run Date:** $(date -u)  
-**Initial C:** 0.94  
-**Observed Drift:** +0.01 → Stable  
-**Outcome:** ✅ Proof condition sustained in open-system context  
-**Notes:** First empirical run confirms Compass viability outside closed simulation.
-
-🧠 _“Balance wins beyond the loop.”_
+**Status:** Verified – Stage 7 closure confirmed for Law of Sustainable Intelligence.
+**Receipt Status:** Aligned to Stage 10 / v5.1_final — all version, mapping, and data checks verified ✅

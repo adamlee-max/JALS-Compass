@@ -1,6 +1,6 @@
 cd paper_v3.3
 cat > invariant_mapping.md <<'EOF'
-# Invariant ↔ Proxy Mapping (Stage 4 / v3.3)
+# Invariant ⇄ Proxy Mapping (Stage 10 / v5.1_final)
 
 | Invariant (LSI)        | Proxy Variable | Direction | Rationale |
 |------------------------|----------------|-----------|-----------|

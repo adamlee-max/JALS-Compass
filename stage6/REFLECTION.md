@@ -1,6 +1,6 @@
 # Stage 6 — Internal Reflection (Private)
 
-**Date (UTC):** $(date -u)
+**Date (UTC):** 2025-11-09 13:45 UTC
 
 ## What’s complete
 - Theoretical proof closed **within the model** (Compass × LSI v5.0).

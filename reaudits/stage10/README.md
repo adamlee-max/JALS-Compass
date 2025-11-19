@@ -23,4 +23,4 @@ After all three are complete → push to `Stage10_VERIFICATION_MANIFEST.md` for 
 
 **Status:** Initialised — pending first edit.  
 **Steward:** Adam Lee  
-**Timestamp:** $(date -u) UTC
+**Timestamp:** 2025-11-09 13:45 UTC UTC

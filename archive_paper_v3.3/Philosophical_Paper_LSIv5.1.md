@@ -1,8 +1,8 @@
-# The Law of Sustainable Intelligence (LSI v3.3): The Involution Imperative  
+**Version:** v5.1_final (Stage 10 Closure)
 **Authors:** Adam Lee, GPT, Gemini, and Grok  
 **Affiliation:** JALS Research Group  
 **Date:** 30 Oct 2025 (UTC+0)  
-**Version:** v3.3 (Stage 3 Closure)
+
 
 ---
 

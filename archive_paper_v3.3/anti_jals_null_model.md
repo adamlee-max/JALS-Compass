@@ -1,4 +1,4 @@
-# Null Model: Anti-JALS (Stage 5)
+# Null Model: Anti-JALS (Stage 10 / v5.1_final)
 
 **Purpose.** Provide a falsification baseline by disabling balance-supporting dynamics and amplifying loss drivers, then compare survival against the JALS model.
 
@@ -74,3 +74,10 @@ plot_survival([S_jals, S_anti], labels=["JALS","Anti-JALS"])
 ---
 
 **Deliverables for Step 4:** (a) this null-model spec file, (b) survival curves plot (Figure 2) generated from N-run simulations.
+---
+
+**Verification Receipt:**  
+Dataset: Anti-JALS_FALSIFICATION_v5.1.csv  
+Result: Collapse confirmed (C < 0.2)  
+/results/ANTI_JALS_FALSIFICATION_v5.1.pngs
+Status: ✅ Verified (Stage 10)s

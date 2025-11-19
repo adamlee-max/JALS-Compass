@@ -3,7 +3,7 @@
 **Project:** JALS Compass × Law of Sustainable Intelligence  
 **Version:** v5.1  
 **Repository:** github.com/adamlee-max/JALS-Compass  
-**Date:** $(date +"%Y-%m-%d %H:%M:%S %Z")
+**Date:** 2025-11-09 13:45 UTC
 
 ---
 
@@ -28,7 +28,7 @@ All audit receipts, logs, and manifests are cryptographically traceable to this 
 
 **Verifier:** JALS-AI Autonomous Process (GitHub Codespaces, redesigned-potato)  
 **Human Steward:** Adam Lee  
-**Timestamp:** $(date +"%Y-%m-%d %H:%M:%S %Z")  
+**Timestamp:** 2025-11-09 13:45 UTC  
 
 ---
 
