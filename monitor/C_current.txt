@@ -1,2 +1,3 @@
 C = 0.92 | Stage 5 (Proof Closure Final) | DOI: 10.5281/zenodo.17542087 | Perma: https://perma.cc/9BSA-Q6TG | Verified: Thu Nov  6 13:01:58 UTC 2025
 C = 0.94 | Stage 6 (External Validation) | DOI: 10.5281/zenodo.17542087 | Perma: https://perma.cc/4TQ7-MN6K | Verified: Thu Nov  6 13:36:37 UTC 2025
+C = 0.96 | Stage 18–19 (Proxy alignment + hostile-env scaffold)
