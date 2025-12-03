@@ -22,6 +22,37 @@ Stage 18 – Repo & manuscript clean-up (in progress):
 	•	Clarify measurement and proxy alignment
 	•	Tighten reproducibility paths for external reviewers
 
+Stage 19 — Hostile environment suite (completed):
+
+• Stress-tested the Compass under adversarial conditions (attack, noise, opacity, imbalance rewards).
+• Four v1 simulations:
+    - baseline hostile: /experiments/hostile_env/hostile_env_sim_v1.py
+    - instant-knowledge cohort: /experiments/hostile_env/hostile_env_sim_instant.py
+    - mixed-behaviour cohort: /experiments/hostile_env/hostile_env_sim_mixed.py
+    - anti-only placeholder: /experiments/hostile_env/hostile_env_sim_anti_only.py
+• Outputs: comparison plot in /proof_receipts/hostile_env_compare_v1.png
+• Result: Instant cohort survives ~5–15 steps longer than Mixed.
+• Conclusion: Higher effective coherence (C_proxy) predicts survival even when the environment rewards imbalance.
+• Status: Stage 19 sealed — tag: v5.1_stage19_receipt
+
+Stage 20 — 2008 financial crisis replay (completed):
+
+• Applied the Compass to the 2006–2009 U.S. financial crisis.
+• Used quarterly bank-level signals (Em, R, Pr, H, G) with the Stage-19-locked C_proxy EMA (span=4, hysteresis=0.12).
+• Banks tested:
+    - Lehman Brothers (collapsed)
+    - Bear Stearns (collapsed)
+    - JPMorgan Chase (survived)
+    - Bank of America (survived)
+    - Wells Fargo (survived)
+    - Goldman Sachs (survived)
+• Result: **6/6 perfect separation** — failed banks end below the collapse threshold (–0.25), survivors remain positive.
+• Artifacts:
+    - Trajectories: /experiments/finance_2008/results/banks_2008_cproxy_trajectories.png
+    - Summary CSV: /experiments/finance_2008/results/banks_2008_summary.csv
+    - Receipt: /proof_receipts/receipt_stage20_001.md
+• Status: Stage 20 sealed — tag: v5.3_stage20_receipt
+
 Manuscript version:
 	•	Core scientific write-up: /paper_v5.1/
 	•	Submission packet: /submission_v5.1_final/
