@@ -30,3 +30,13 @@ zip -rq audits/STAGE19_audit_$ts.zip \
   proof_receipts/receipt_stage19_007.md \
   audits/GIT_REV.txt audits/STAGE19_manifest.txt && \
 echo "== WROTE: audits/STAGE19_audit_$ts.zip =="
+**Outputs**
+- Combined plot: `proof_receipts/hostile_env_compare_v1.png`
+- Inputs: `experiments/hostile_env/results/hostile_env_instant_v1.csv`, `experiments/hostile_env/results/hostile_env_mixed_v1.csv`
+
+**Result (v1)**
+The survival curves diverge between ~200–280 steps; **Instant (total)** retains ~5–15 more survivors across the decline and reaches extinction slightly later (~290–300 steps) than **Mixed (total)**.
+
+**Conclusion**
+Under identical hostile conditions, **instant-knowledge agents survive measurably longer than mixed**. This matches the Stage-19 prediction that higher effective coherence (**C_proxy**) correlates with survival.  
+**Stage19_007 is closed.**
