@@ -40,7 +40,7 @@ This receipt confirms that the JALS-OS prospective heartbeat daemon was:
   "git_commit": "969ad00a27c9dc0159508f12c5c333c344c4780",
   "stage21_start": "2025-12-04T13:36:28.991280+00:00"
 }
-}## 4. Clean Shutdown Confirmation
+## 4. Clean Shutdown Confirmation
 
 [Stage21] Stopped. Receipts preserved.
 
