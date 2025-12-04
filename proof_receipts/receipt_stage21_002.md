@@ -25,21 +25,23 @@ This receipt confirms that the JALS-OS prospective heartbeat daemon was:
 
 ```json
 {
+  {
   "timestamp": "2025-12-04T14:59:33.309865+00:00",
   "status": "amber",
   "c_raw": -0.05390000000000001,
   "c_ema": -0.0539,
   "signals": {
-    "Em": 0.3,
-    "R": 0.3,
-    "Pr": -0.2,
-    "H": -0.1,
-    "G": -0.1
+    "Em": 0.0,
+    "R": 0.0,
+    "Pr": 0.2,
+    "H": 0.139,
+    "G": 0.0
   },
   "daemon_version": "stage21_v0.1.3",
   "code_sha256": "c675521c311de94cccb0b20512b907db826e24ab7dbf2b60d7bd45f3361158a1f",
   "git_commit": "969ad02a7c9dd159508f12fc5c333c44a4780",
   "stage21_start": "2025-12-04T13:36:28.991280+00:00"
+}
 }## 4. Clean Shutdown Confirmation
 
 [Stage21] Stopped. Receipts preserved.
