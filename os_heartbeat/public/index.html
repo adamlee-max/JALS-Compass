@@ -1,0 +1,11 @@
+<!doctype html><meta charset="utf-8"><title>JALS-OS Stage 21</title>
+<h1>JALS-OS Stage 21 — Live</h1>
+<pre id="out"></pre>
+<script>
+setInterval(()=>fetch('status.json').then(r=>r.json()).then(d=>{
+  document.getElementById('out').textContent =
+    `C_proxy (EMA) = ${d.C_ema.toFixed(4)} [${d.status}]\n` +
+    `C_proxy (raw) = ${d.C_proxy_raw.toFixed(4)}\n` +
+    `${new Date(d.ts)} UTC`;
+}), 5000);
+</script>

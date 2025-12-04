@@ -4,3 +4,16 @@ stage8/
 *.zip
 *.log
 *.sha256
+# Stage 21 runtime outputs (do not track)
+os_heartbeat/heartbeat.pid
+os_heartbeat/logs/
+os_heartbeat/receipts/
+os_heartbeat/public/status.json
+nohup.out
+
+# General Python noise
+__pycache__/
+*.pyc
+
+# OS/editor noise
+.DS_Store
