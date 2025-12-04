@@ -176,3 +176,4 @@ Contact information in AUTHORS.md.
 
 This repo is an attempt to treat intelligence, balance, and survival as measurable and falsifiable.
 The real test is what survives sustained scrutiny.
+The system now runs in prospective mode.
