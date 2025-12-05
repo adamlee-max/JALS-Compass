@@ -17,3 +17,6 @@ __pycache__/
 
 # OS/editor noise
 .DS_Store
+
+os_heartbeat/heartbeat.out
+os_heartbeat/heartbeat.pid
