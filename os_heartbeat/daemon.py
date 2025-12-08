@@ -14,6 +14,11 @@ from dataclasses import dataclass, asdict
 from datetime import datetime, timezone
 from pathlib import Path
 
+# CI/autostart flags
+import os
+CI = os.getenv("CI", "").lower() == "true"
+AUTOSTART = os.getenv("HEARTBEAT_AUTOSTART", "1") == "1"
+
 # ---- config / thresholds ----
 EMA_SPAN   = 4
 HYSTERESIS = 0.12
@@ -106,8 +111,6 @@ def acquire_lock():
             # stale PID file
             pass
     PID_FILE.write_text(str(os.getpid()))
-
-acquire_lock()
 # ---- dashboard scaffold ----
 STATUS_FILE = PUBLIC_DIR / "status.json"
 INDEX_FILE  = PUBLIC_DIR / "index.html"
@@ -193,11 +196,16 @@ def loop(interval_sec: int = 60):
             time.sleep(0.2)
 
 # ---- launcher / shutdown ----
-try:
-    loop()
-finally:
+def heartbeat_loop():
+    acquire_lock()
     try:
-        PID_FILE.unlink(missing_ok=True)
-    except Exception:
-        pass
-    print("[Stage21] Stopped. Receipts preserved.", flush=True)
+        loop()
+    finally:
+        try:
+            PID_FILE.unlink(missing_ok=True)
+        except Exception:
+            pass
+        print("[Stage21] Stopped. Receipts preserved.", flush=True)
+
+if __name__ == "__main__" and AUTOSTART and not CI:
+    heartbeat_loop()

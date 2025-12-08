@@ -2,34 +2,37 @@ name: Smoke tests
 
 on:
   push:
-    branches: [ main ]
   pull_request:
 
 jobs:
-  smoke:
+  syntax:
     runs-on: ubuntu-latest
-    name: Run smoke tests
+    name: Python syntax check
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Set up Python 3.11
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: '3.11'
 
-      - name: Install dependencies (if any)
-        run: |
-          python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: Check Python syntax
+        run: python -m py_compile $(git ls-files '*.py')
 
-      - name: Python syntax check
-        run: |
-          # find all .py files but avoid common large or vendor dirs
-          find . -name '*.py' -not -path './.venv/*' -not -path './.git/*' -not -path './archive/*' -print0 | xargs -0 -n1 python -m py_compile
+  daemon-import:
+    runs-on: ubuntu-latest
+    name: Daemon import test
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Daemon import test
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Test daemon import
         env:
           PYTHONPATH: ${{ github.workspace }}
-        run: |
-          python -c "import importlib; importlib.import_module('os_heartbeat.daemon'); print('Imported os_heartbeat.daemon OK')"
+        run: python -c "import importlib; importlib.import_module('os_heartbeat.daemon')"
