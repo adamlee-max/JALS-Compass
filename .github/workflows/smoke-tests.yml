@@ -17,6 +17,9 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Install deps
+        run: pip install -r requirements.txt
+
       - name: Check Python syntax
         run: python -m py_compile $(git ls-files '*.py')
 
@@ -32,6 +35,8 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Install deps
+        run: pip install -r requirements.txt
       - name: Test daemon import
         env:
           PYTHONPATH: ${{ github.workspace }}
