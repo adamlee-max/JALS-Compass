@@ -44,38 +44,45 @@ def run_episode(is_jals: bool = True) -> int:
     return int(MAX_STEPS)
 
 
-# ==============================
-# Run full simulation
-# ==============================
+def main():
+    """Run the full null-model simulation and generate survival curves."""
+    # ==============================
+    # Run full simulation
+    # ==============================
 
-for i in range(EPISODES):
-    jals_survival[i] = run_episode(is_jals=True)
-    anti_survival[i] = run_episode(is_jals=False)
+    for i in range(EPISODES):
+        jals_survival[i] = run_episode(is_jals=True)
+        anti_survival[i] = run_episode(is_jals=False)
 
-# Optional safety check
-print("NaNs in JALS:", np.isnan(jals_survival).sum())
-print("NaNs in Anti-JALS:", np.isnan(anti_survival).sum())
+    # Optional safety check
+    print("NaNs in JALS:", np.isnan(jals_survival).sum())
+    print("NaNs in Anti-JALS:", np.isnan(anti_survival).sum())
 
-# ==============================
-# Survival Curve Plot
-# ==============================
+    # ==============================
+    # Survival Curve Plot
+    # ==============================
 
-kmf = KaplanMeierFitter()
+    kmf = KaplanMeierFitter()
 
-plt.figure(figsize=(10, 6))
+    plt.figure(figsize=(10, 6))
 
-# JALS curve
-kmf.fit(jals_survival, event_observed=jals_survival < MAX_STEPS, label="JALS")
-kmf.plot(ci_show=False)
+    # JALS curve
+    kmf.fit(jals_survival, event_observed=jals_survival < MAX_STEPS, label="JALS")
+    kmf.plot(ci_show=False)
 
-# Anti-JALS curve
-kmf.fit(anti_survival, event_observed=anti_survival < MAX_STEPS, label="Anti-JALS")
-kmf.plot(ci_show=False)
+    # Anti-JALS curve
+    kmf.fit(anti_survival, event_observed=anti_survival < MAX_STEPS, label="Anti-JALS")
+    kmf.plot(ci_show=False)
 
-plt.title("Stage 17 Null Model – Survival Curves")
-plt.xlabel("Steps Before Collapse")
-plt.ylabel("Survival Probability")
+    plt.title("Stage 17 Null Model – Survival Curves")
+    plt.xlabel("Steps Before Collapse")
+    plt.ylabel("Survival Probability")
 
-# Save figure
-plt.savefig("experiments/null_model/null_model_survival.png", dpi=300)
+    # Save figure
+    plt.savefig("experiments/null_model/null_model_survival.png", dpi=300)
+    plt.close()
+
+
+if __name__ == "__main__":
+    main()
 plt.close()
