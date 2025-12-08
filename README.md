@@ -1,4 +1,5 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17542087.svg)](https://doi.org/10.5281/zenodo.17542087)
+[![Smoke tests](https://github.com/adamlee-max/JALS-Compass/actions/workflows/smoke-tests.yml/badge.svg?branch=main)](https://github.com/adamlee-max/JALS-Compass/actions/workflows/smoke-tests.yml)
 JALS Compass × Law of Sustainable Intelligence (LSI)
 
 Working hypothesis: systems that maintain coherent balance across their boundaries, centre, feedback loops, patterns, and history tend to survive; those that cannot, dissolve.
