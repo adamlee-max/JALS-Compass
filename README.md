@@ -177,3 +177,14 @@ Contact information in AUTHORS.md.
 This repo is an attempt to treat intelligence, balance, and survival as measurable and falsifiable.
 The real test is what survives sustained scrutiny.
 The system now runs in prospective mode.
+
+⸻
+
+Historical Materials
+
+Earlier stage summaries and historical proof receipts have been archived for reference. See `/archive/history/` for:
+- Stage summaries (Stages 1–6)
+- Proof receipts from earlier investigations
+- Previous README snapshots
+
+These materials are retained for traceability and reproducibility but do not affect the current research trajectory.
